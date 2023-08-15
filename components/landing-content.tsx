@@ -1,41 +1,38 @@
 "use client";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Joel",
-    avatar: "J",
-    title: "Software Engineer",
-    description: "This is the best application I've ever used!",
+    name: "Jason Lowery",
+    title: "Technology & Innovation Officer, U.S Space Force",
+    videoSrc: "https://www.youtube.com/embed/fL23a7nqh1M",
   },
   {
-    name: "Antonio",
-    avatar: "A",
-    title: "Designer",
-    description: "I use this daily for generating new photos!",
+    name: "Luke Broyles",
+    title: "Bitcoin Filmmaker & Twitter Thread Afficianado",
+    videoSrc: "https://www.youtube.com/embed/S2L5wPFDZGM",
   },
   {
-    name: "Mark",
-    avatar: "M",
-    title: "CEO",
-    description: "This app has changed my life, cannot imagine working without it!",
+    name: "Greg Foss",
+    title: "Risk Manager with 30 years in Credit Markets",
+    videoSrc: "https://www.youtube.com/embed/L72rDIB62AU",
   },
   {
-    name: "Mary",
-    avatar: "M",
-    title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!",
+    name: "B.J Dichter",
+    title: "Author of Honking For Freedom & Big Rig Driver",
+    videoSrc: "https://www.youtube.com/embed/ARbX1iwxT9Q",
   },
+  // Add other testimonial objects here
 ];
 
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
-      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Testimonials</h2>
+      <h2 className="text-center text-4xl text-white font-extrabold mb-10">Our Speaker Series</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {testimonials.map((item) => (
-          <Card key={item.description} className="bg-[#192339] border-none text-white">
+          <Card key={item.name} className="bg-[#192339] border-none text-white">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
@@ -43,13 +40,20 @@ export const LandingContent = () => {
                   <p className="text-zinc-400 text-sm">{item.title}</p>
                 </div>
               </CardTitle>
-              <CardContent className="pt-4 px-0">
-                {item.description}
-              </CardContent>
             </CardHeader>
+            {/* Replace the CardContent with the iframe */}
+            <iframe
+              width="100%"
+              height="315"
+              src={item.videoSrc}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </Card>
         ))}
       </div>
     </div>
-  )
-}
+  );
+};

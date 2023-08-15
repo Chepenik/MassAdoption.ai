@@ -344,10 +344,10 @@
     "/Users/conorchepenik/Desktop/MassAdoption.ai/app/(landing)/page": [
       "static/css/app/(landing)/page.css"
     ],
-    "/Users/conorchepenik/Desktop/MassAdoption.ai/app/(landing)/layout": [],
     "/Users/conorchepenik/Desktop/MassAdoption.ai/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/conorchepenik/Desktop/MassAdoption.ai/app/(landing)/error": []
+    "/Users/conorchepenik/Desktop/MassAdoption.ai/app/(landing)/error": [],
+    "/Users/conorchepenik/Desktop/MassAdoption.ai/app/(landing)/layout": []
   }
 }

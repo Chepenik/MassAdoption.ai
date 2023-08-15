@@ -1,9 +1,9 @@
 "use client";
 
 import Link from 'next/link';
-// import '@fortawesome/fontawesome-svg-core/styles.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faTwitter, faGithub, faMeetup } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub, faMeetup } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   const current_year = new Date().getFullYear();
@@ -22,7 +22,7 @@ export const Footer = () => {
           Contact
         </Link>
         <p>Copyright © {current_year}, MassAdoption LLC. All Rights Reserved.</p>
-        {/* <div>
+        <div>
             <a href="https://twitter.com/BTC_Mass" target='_blank'>
             <FontAwesomeIcon icon={faTwitter} size="lg" className="mx-2" />
             </a>
@@ -32,7 +32,7 @@ export const Footer = () => {
           <a href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target='_blank'>
             <FontAwesomeIcon icon={faMeetup} size="lg" className="mx-2" />
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
