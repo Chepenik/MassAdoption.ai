@@ -83,3 +83,14 @@ body,
     @apply bg-background text-foreground;
   }
 }
+
+.iframe-wrapper {
+  display: block; 
+}
+
+/* Hide iframe when screen width is 768px or less */
+@media (max-width: 768px) {
+  .iframe-wrapper {
+    display: none;
+  }
+}/* Show iframe by default */

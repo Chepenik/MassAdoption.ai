@@ -26,7 +26,7 @@ export const Footer = () => {
             <a href="https://twitter.com/BTC_Mass" target='_blank'>
             <FontAwesomeIcon icon={faTwitter} size="lg" className="mx-2" />
             </a>
-            <a href="https://github.com/Chepenik/MassAdoptionAI" target='_blank'>
+            <a href="https://github.com/Chepenik/MassAdoption.ai" target='_blank'>
                 <FontAwesomeIcon icon={faGithub} size="lg" className="mx-2" />
             </a>
           <a href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target='_blank'>

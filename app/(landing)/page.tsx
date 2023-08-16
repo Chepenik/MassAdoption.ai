@@ -2,7 +2,7 @@ import { LandingContent } from "@/components/landing-content";
 import { LandingHero } from "@/components/landing-hero";
 import { LandingNavbar } from "@/components/landing-navbar";
 import { Footer } from "@/components/footer";
-// import { About } from "@/components/about";
+import { About } from "@/components/about";
 
 const LandingPage = () => {
   return (
@@ -22,7 +22,7 @@ const LandingPage = () => {
       >
         <LandingNavbar />
         <LandingHero />
-        {/* <About /> */}
+        <About />
         <h1>I'm here big dog I'm here</h1>
         <LandingContent />
         <div className="iframe-wrapper">
