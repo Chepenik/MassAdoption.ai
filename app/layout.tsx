@@ -12,6 +12,7 @@ const font = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'MassAdoption.ai',
   description: 'Bitcoiner meetup & AI Platform',
+  
 }
 
 export default async function RootLayout({

@@ -1,13 +1,27 @@
+"use client"
+
 import { LandingContent } from "@/components/landing-content";
 import { LandingHero } from "@/components/landing-hero";
 import { LandingNavbar } from "@/components/landing-navbar";
 import { Footer } from "@/components/footer";
-import { About } from "@/components/about";
+// import { About } from "@/components/about";
+import { backgroundImages } from "@/components/backgroundImages";
+import { useEffect, useState } from "react";
+
 
 const LandingPage = () => {
+  const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const index = backgroundImages.indexOf(backgroundImage);
+      setBackgroundImage(backgroundImages[(index + 1) % backgroundImages.length]);
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [backgroundImage]);
+
   return (
     <div>
-      {/* <h1>(Unprotected landing page route)</h1> */}
       <div
         style={{
           position: "absolute",
@@ -15,15 +29,14 @@ const LandingPage = () => {
           left: 0,
           width: "100%",
           height: "100vh",  // Make the background cover the entire viewport
-          backgroundImage: 'linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #062343 70%), url(https://cdn.nostr.build/p/nb3621.jpeg)',
+          backgroundImage: `linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #062343 70%), url(${backgroundImage})`,
           backgroundSize: "cover",  // Scale the background image to cover the entire container
           backgroundPosition: "center",  // Center the background image
         }}
       >
         <LandingNavbar />
         <LandingHero />
-        <About />
-        <h1>I'm here big dog I'm here</h1>
+        {/* <About /> */}
         <LandingContent />
         <div className="iframe-wrapper">
           <iframe
