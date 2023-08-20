@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import Image from "next/image"
 import Link from "next/link"
 import { useAuth } from "@clerk/nextjs";
+import { FaBars } from 'react-icons/fa';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -29,9 +30,9 @@ export const LandingNavbar = () => {
       </Link>
       <div className="flex items-center gap-x-2">
         <DropdownMenu>
-          <DropdownMenuTrigger className="bg-white text-black px-4 py-2 rounded-lg">
-            MassAdoption
-          </DropdownMenuTrigger>
+        <DropdownMenuTrigger >
+          <FaBars className="text-xl" />
+        </DropdownMenuTrigger>
           <DropdownMenuContent>
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
               <DropdownMenuLabel className="text-lg font-semibold">
