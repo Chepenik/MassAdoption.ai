@@ -7,14 +7,14 @@ const Team = () => {
         {
             name: 'John Doe',
             role: 'Founder & CEO',
-            image: '/images/member1.jpg',
+            image: 'https://cdn.nostr.build/p/nb7511.jpg',
             twitter: 'https://twitter.com/johndoe',
             website: 'https://www.johndoe.com',
         },
         {
             name: 'Jane Smith',
             role: 'Creative Director',
-            image: '/images/member2.jpg',
+            image: 'https://cdn.nostr.build/p/nb7511.jpg',
             twitter: 'https://twitter.com/janesmith',
             website: 'https://www.janesmith.com',
         },
