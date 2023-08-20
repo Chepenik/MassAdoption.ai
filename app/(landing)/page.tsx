@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 // import { About } from "@/components/about";
 import { backgroundImages } from "@/components/backgroundImages";
 import { useEffect, useState } from "react";
-
+import Head from "next/head";
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -22,6 +22,9 @@ const LandingPage = () => {
 
   return (
     <div>
+      <head>
+        
+      </head>
       <div
         style={{
           position: "absolute",
