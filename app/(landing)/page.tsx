@@ -39,7 +39,9 @@ const LandingPage = () => {
       >
         <LandingNavbar />
         <LandingHero />
-        {/* <About /> */}
+        {/* Add Freedom Festival */}
+        {/* Add Mr. Nakamoto */}
+        {/* Add a team section */}
         <LandingContent />
         <div className="iframe-wrapper">
           <iframe

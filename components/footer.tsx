@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faMeetup } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 export const Footer = () => {
   const current_year = new Date().getFullYear();
@@ -29,8 +29,8 @@ export const Footer = () => {
             <a href="https://github.com/Chepenik/MassAdoption.ai" target='_blank'>
                 <FontAwesomeIcon icon={faGithub} size="lg" className="mx-2" />
             </a>
-          <a href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target='_blank'>
-            <FontAwesomeIcon icon={faMeetup} size="lg" className="mx-2" />
+          <a href="https://youtube.com/@massadoptionbtc" target='_blank'>
+            <FontAwesomeIcon icon={faYoutube} size="lg" className="mx-2" />
           </a>
         </div>
       </div>

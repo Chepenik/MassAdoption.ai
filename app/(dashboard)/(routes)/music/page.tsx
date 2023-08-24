@@ -116,5 +116,5 @@ const MusicPage = () => {
     </div>
    );
 }
- 
+
 export default MusicPage;

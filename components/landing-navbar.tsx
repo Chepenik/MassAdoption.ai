@@ -1,10 +1,9 @@
-"use client";
-
 import { Poppins } from "next/font/google";
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
 import { FaBars } from 'react-icons/fa';
+import { useState, useEffect } from 'react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,45 +19,70 @@ const font = Poppins({ weight: '600', subsets: ['latin'] });
 
 export const LandingNavbar = () => {
   const { isSignedIn } = useAuth();
+  const [isMobileScreen, setIsMobileScreen] = useState(window.innerWidth <= 767);
+  const handleResize = () => setIsMobileScreen(window.innerWidth <= 767);
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
-    <nav className="p-4 bg-transparent flex items-center justify-between">
+    <nav className="p-4 bg-transparent text-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <div className="relative h-12 w-12 mr-6">
           <Image fill alt="Logo" src="/massadoption.png" />
         </div>
       </Link>
       <div className="flex items-center gap-x-2">
-        <DropdownMenu>
-        <DropdownMenuTrigger >
-          <FaBars className="text-xl" />
-        </DropdownMenuTrigger>
-          <DropdownMenuContent>
+        {isMobileScreen ? (
+          <DropdownMenu>
+            <DropdownMenuTrigger>
+              <FaBars className="text-xl" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
+                <DropdownMenuLabel className="text-lg font-semibold">Meetup</DropdownMenuLabel>
+              </Link>
+              <DropdownMenuSeparator />
+              <Link href="/MrNakamoto">
+                <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
+              </Link>
+              <Link href="/videos">
+                <DropdownMenuItem className="py-3">Videos</DropdownMenuItem>
+              </Link>
+              <Link href="/team">
+                <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
+              </Link>
+              <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
+                <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
+              </Link>
+              <Link href="/freedom-festival-2024">
+                <DropdownMenuItem className="py-3">Freedom Fest '24</DropdownMenuItem>
+              </Link>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        ) : (
+          <div className="hidden lg:flex items-center gap-x-2">
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
-              <DropdownMenuLabel className="text-lg font-semibold">
-                Meetup
-              </DropdownMenuLabel>
+              <span className="text-lg font-semibold hover:text-gray-900">Meetup</span>
             </Link>
-            <DropdownMenuSeparator />
             <Link href="/MrNakamoto">
-              <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
-            </Link>
-            <Link href="/videos">
-              <DropdownMenuItem className="py-3">Videos</DropdownMenuItem>
+              <span className="text-lg font-semibold hover:text-gray-900">Mr. Nakamoto</span>
             </Link>
             <Link href="/team">
-              <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
+              <span className="text-lg font-semibold hover:text-gray-900">Team</span>
             </Link>
             <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
-              <DropdownMenuItem className="py-3">Affiliate Signup</DropdownMenuItem>
+              <span className="text-lg font-semibold hover:text-gray-900">Affiliates</span>
             </Link>
             <Link href="/freedom-festival-2024">
-              <DropdownMenuItem className="py-3">
-                Freedom Festival 2024
-              </DropdownMenuItem>
+              <span className="text-lg font-semibold hover:text-gray-900">Freedom Fest '24</span>
             </Link>
-          </DropdownMenuContent>
-        </DropdownMenu>
+          </div>
+        )}
       </div>
     </nav>
   )
