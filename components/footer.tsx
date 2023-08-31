@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <div id="section_footer">
       <div className='text-center py-4 text-white'>
-        <Link href="https://1manstartup.com/privacy-policy" target="_blank" className='btn btn-link hover:text-gray-400'>
+        <Link href="/about" target="_blank" className='btn btn-link hover:text-gray-400'>
           About
         </Link>
         <span className="text-gray-400"> | </span>
