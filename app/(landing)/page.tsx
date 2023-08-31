@@ -4,10 +4,9 @@ import { LandingContent } from "@/components/landing-content";
 import { LandingHero } from "@/components/landing-hero";
 import { LandingNavbar } from "@/components/landing-navbar";
 import { Footer } from "@/components/footer";
-// import { About } from "@/components/about";
 import { backgroundImages } from "@/components/backgroundImages";
 import { useEffect, useState } from "react";
-import Head from "next/head";
+import Head from "next/head"; // Import the Head component from next/head
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -22,19 +21,20 @@ const LandingPage = () => {
 
   return (
     <div>
-      <head>
-        
-      </head>
+      {/* Use the Head component to manage head content */}
+      <Head>
+        {/* Add your meta tags, title, etc. here */}
+      </Head>
       <div
         style={{
           position: "absolute",
           top: 0,
           left: 0,
           width: "100%",
-          height: "100vh",  // Make the background cover the entire viewport
+          height: "100vh",
           backgroundImage: `linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #062343 70%), url(${backgroundImage})`,
-          backgroundSize: "cover",  // Scale the background image to cover the entire container
-          backgroundPosition: "center",  // Center the background image
+          backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
         <LandingNavbar />

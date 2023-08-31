@@ -73,19 +73,23 @@ export const LandingNavbar = () => {
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
-              <span className="text-lg font-semibold hover:text-orange-400">Meetup</span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Meetup  </span>
             </Link>
+            <p>|</p>
             <Link href="/MrNakamoto">
-              <span className="text-lg font-semibold hover:text-orange-400">Mr. Nakamoto</span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Mr. Nakamoto  </span>
             </Link>
+            <p>|</p>
             <Link href="/team">
-              <span className="text-lg font-semibold hover:text-orange-400">Team</span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Team  </span>
             </Link>
+            <p>|</p>
             <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
-              <span className="text-lg font-semibold hover:text-orange-400">Affiliates</span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Affiliates  </span>
             </Link>
+            <p>|</p>
             <Link href="/freedom-festival-2024">
-              <span className="text-lg font-semibold hover:text-orange-400">Freedom Fest '24</span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
           </div>
         )}
