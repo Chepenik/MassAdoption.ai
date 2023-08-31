@@ -18,15 +18,21 @@ import { Button } from "@/components/ui/button";
 const font = Poppins({ weight: '600', subsets: ['latin'] });
 
 export const LandingNavbar = () => {
-  const { isSignedIn } = useAuth();
-  const [isMobileScreen, setIsMobileScreen] = useState(window.innerWidth <= 767);
-  const handleResize = () => setIsMobileScreen(window.innerWidth <= 767);
-
+  const [isMobileScreen, setIsMobileScreen] = useState(
+    typeof window !== 'undefined' && window.innerWidth <= 767
+  );
+  
+  const handleResize = () => 
+    setIsMobileScreen(window?.innerWidth <= 767);
+  
   useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
+      
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
 
   return (
@@ -67,19 +73,19 @@ export const LandingNavbar = () => {
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
-              <span className="text-lg font-semibold hover:text-gray-900">Meetup</span>
+              <span className="text-lg font-semibold hover:text-orange-400">Meetup</span>
             </Link>
             <Link href="/MrNakamoto">
-              <span className="text-lg font-semibold hover:text-gray-900">Mr. Nakamoto</span>
+              <span className="text-lg font-semibold hover:text-orange-400">Mr. Nakamoto</span>
             </Link>
             <Link href="/team">
-              <span className="text-lg font-semibold hover:text-gray-900">Team</span>
+              <span className="text-lg font-semibold hover:text-orange-400">Team</span>
             </Link>
             <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
-              <span className="text-lg font-semibold hover:text-gray-900">Affiliates</span>
+              <span className="text-lg font-semibold hover:text-orange-400">Affiliates</span>
             </Link>
             <Link href="/freedom-festival-2024">
-              <span className="text-lg font-semibold hover:text-gray-900">Freedom Fest '24</span>
+              <span className="text-lg font-semibold hover:text-orange-400">Freedom Fest '24</span>
             </Link>
           </div>
         )}
