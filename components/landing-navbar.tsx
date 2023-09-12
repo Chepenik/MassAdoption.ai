@@ -76,11 +76,11 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Meetup  </span>
             </Link>
             <p>|</p>
-            <Link href="/MrNakamoto">
+            <Link target="_blank" href="/MrNakamoto">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Mr. Nakamoto  </span>
             </Link>
             <p>|</p>
-            <Link href="/team">
+            <Link target="_blank" href="/team">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Team  </span>
             </Link>
             <p>|</p>
@@ -88,7 +88,7 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
             </Link>
             <p>|</p>
-            <Link href="/freedomfestival">
+            <Link target="_blank" href="/freedomfestival">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
           </div>
