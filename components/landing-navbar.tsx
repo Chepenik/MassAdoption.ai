@@ -65,7 +65,7 @@ export const LandingNavbar = () => {
               <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link href="/freedom-festival-2024">
+              <Link href="/freedomfestival2024">
                 <DropdownMenuItem className="py-3">Freedom Fest '24</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
@@ -84,11 +84,11 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Team  </span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Affiliates  </span>
+            <Link target="_blank" href="/merch">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
             </Link>
             <p>|</p>
-            <Link href="/freedom-festival-2024">
+            <Link href="/freedomfestival">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
           </div>

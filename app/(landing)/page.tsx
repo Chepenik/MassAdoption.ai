@@ -7,6 +7,34 @@ import { Footer } from "@/components/footer";
 import { backgroundImages } from "@/components/backgroundImages";
 import { useEffect, useState } from "react";
 import Head from "next/head"; // Import the Head component from next/head
+import { PhotoScroll } from "@/components/photo-scroll";
+
+const photos = [
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+  { src: '/../public/purplebsky.png', alt: 'Photo 3'},
+];
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -43,6 +71,7 @@ const LandingPage = () => {
         {/* Add Mr. Nakamoto */}
         {/* Add a team section */}
         <LandingContent />
+        <PhotoScroll photos={photos} />
         <div className="iframe-wrapper">
           <iframe
             src="https://btcmap.org/map#6/41.88592/-69.43359"

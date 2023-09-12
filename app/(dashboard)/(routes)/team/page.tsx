@@ -1,70 +1,65 @@
 "use client"
-//import router
-import { useRouter } from "next/router";
+
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 
 const TeamPage = () => { 
     const [teamMembers, setTeamMembers] = useState ([
-        //replace all websites with a bio section
-        //use react useState to have a nice z index display effect so when a user click's on bio it will display the bio
         {
-            name: 'David Robinson',
-            role: 'Operations Manager',
-            image: 'https://cdn.nostr.build/p/nb7511.jpg',
-            twitter: 'https://twitter.com/davidrobinson',
-            bio: 'David is responsible for managing our operations...',
+            name: 'Greg',
+            twitter: 'https://twitter.com/gwhoffmeister',
+            role: 'Founder',
+            website: 'greg.html',
+            image: 'https://i.nostr.build/vR96.jpg',
+            bio: 'Greg is a founding member of MassAdoption. He is a descendant of Mayflower passenger Stephen Hopkins and Revolutionary War soldier Seth Hopkins. He spent 25 years in commercial real estate and now coaches high school football, brews beer, and raises awareness of Bitcoin.',
         },
         {
             name: 'Brendan',
             twitter: 'https://twitter.com/BrendanQuinn84',
-            role: 'Founder & CEO',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
-            bio: 'Brendan is the visionary leader behind our company...',
-        },
-        {
-            name: 'Ron',
-            twitter: 'https://twitter.com/rounakskm',
-            role: 'Founder & CEO',
-            website: 'ron.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
-        },
-        {
-            name: 'Conor',
-            twitter: 'https://twitter.com/ConorChepenik',
-            role: 'Founder & CEO',
-            website: 'conor.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
+            role: 'Advisor',
+            image: 'https://i.nostr.build/jqw5.jpg',
+            bio: 'Brendan is a lifelong learner and Advisor at Cantilever where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
         },
         {
             name: 'Jeff',
             twitter: 'https://twitter.com/BTC_MS_THRIVING',
-            role: 'Founder & CEO',
-            website: 'jeff.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
+            role: 'Founder',
+            website: 'https://twitter.com/BTC_MS_THRIVING',
+            image: 'https://i.nostr.build/PYr8.jpg',
+            bio: 'Jeff holds an accounting degree from the University of Massachusetts Business School and initially worked in public accounting. After gaining a profound understanding of financial statements, he built a successful chain of 40 high-end consignment stores across the U.S., eventually selling his stake to a private equity firm in 2009 and completing the sale in 2011. Following a non-compete agreement in the U.S., he expanded to Toronto, establishing an 18-store chain of used and vintage clothing shops. Health concerns led him to pass the CEO role to another in 2016, but in 2017, he returned to entrepreneurship with vintage clothing and sneaker stores in downtown Boston. Facing the challenges of the pandemic in 2020, Jeff made the strategic decision to close his retail businesses, allowing him to immerse himself in the world of Bitcoin.'
+        },
+        {
+            name: 'Ron',
+            twitter: 'https://twitter.com/rounakskm',
+            role: 'AI Engineer',
+            website: 'https://twitter.com/rounakskm',
+            image: 'https://i.nostr.build/8mR4.jpg',
+            bio: 'Ron is a machine learning engineer who fell down the Bitcoin rabbit hole. He enjoys leveraging lightning and orange pilling other devs to get involved with Bitcoin.'
+        },
+        {
+            name: 'Conor',
+            twitter: 'https://twitter.com/ConorChepenik',
+            role: 'Lead Developer',
+            website: 'https://chepenik.github.io/conorchepenik.com/',
+            image: 'https://i.nostr.build/WklY.jpg',
+            bio: 'Conor graduated from Tufts University in 2020, he is a father & Bitcoiner determined to make sure his daughter can grow up in a world where money is backed by open-source software and math rather than violence. Conor is also on Nostr @ npub16syt2k5uky4pxycfttxrxmwwzht2t3008f2q68kw4almjl4guu9qea8t7y or use my NIP 5 Binmucker.'
         },
         {
             name: 'Phil',
             twitter: 'https://twitter.com/NEEDcreations',
-            role: 'Founder & CEO',
-            website: 'phil.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
+            role: 'Project Manager',
+            website: 'https://twitter.com/NEEDcreations',
+            image: 'https://i.nostr.build/3D4X.jpg',
+            bio: 'Phil is a Bitcoin educator, node runner and home miner. Phils accomplishments in the Bitcoin space include creating and managing a Bitcoin Education Discord, creating 2 Bitcoin products with Satoshis Journal (educational playing cards and a childrens book), and working as the project manager for Mass Adoptions Freedom Festival.'
         },
         {
             name: 'Brandon',
-            twitter: 'https://twitter.com/BitcoinDale',
-            role: 'Founder & CEO',
-            website: 'brandon.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
-        },
-        {
-            name: 'Greg',
-            twitter: 'https://twitter.com/gwhoffmeister',
-            role: 'Founder & CEO',
-            website: 'greg.html',
-            image: 'https://cdn.nostr.build/p/nb7148.jpeg',
+            twitter: 'https://twitter.com/BTCNationalist',
+            role: 'AI engineer',
+            website: 'https://twitter.com/BTCNationalist',
+            image: 'https://i.nostr.build/l38G.jpg',
+            bio: 'Brandon is an engineer specializing in power generation. He believes Bitcoin is the embodiment of extreme ownership, and a tool to achieve sovereignty. Brandon also believes that Bitcoin will dematerialize the cost of energy which will improve the lives of everyone on Earth.'
         }
-        // Add more team members as needed
     ]);
 
     const [selectedMember, setSelectedMember] = useState(null);
@@ -73,17 +68,23 @@ const TeamPage = () => {
         alert(`${teamMembers[index].bio}`);
     };
 
-    const handleClose = () => {
-        setSelectedMember(null);
-      };
+    const handleWebsiteClick = (index: number) => {
+        const websiteUrl = teamMembers[index].website;
+        if (websiteUrl) {
+            window.open(websiteUrl, '_blank');
+        }
+    };
 
     const handleXClick = (index: number) => {
         window.open(`${teamMembers[index].twitter}`, '_blank');
     };
 
+    const handleUseClientClick = (index: number) => {
+        alert(`Use Client clicked for ${teamMembers[index].name}`);
+    };
 
     return (
-        <section className="bg-gray-100 py-16">
+        <section className="bg-gray-200 py-16">
             <h2 className="text-3xl text-center mb-8 font-semibold">Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {teamMembers.map((member, index) => (
@@ -99,15 +100,14 @@ const TeamPage = () => {
                             <a href={member.twitter} target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-twitter text-blue-500 text-xl"></i>
                             </a>
-                            <Button className='bg-orange-600 hover:bg-primary/90'
-                                onClick={() => handleBioClick(index)}
-                            >
+                            <Button className='bg-orange-600 hover:bg-primary/90' onClick={() => handleBioClick(index)}>
                                 <p>Bio</p>
                             </Button>
-                            <Button className='bg-orange-600 hover:bg-primary/90'
-                                onClick={() => handleXClick(index)}
-                            >
+                            <Button className='bg-orange-600 hover:bg-primary/90' onClick={() => handleXClick(index)}>
                                 <p>X</p>
+                            </Button>
+                            <Button className='bg-orange-600 hover:bg-primary/90' onClick={() => handleWebsiteClick(index)}>
+                                <p>Website</p>
                             </Button>
                         </div>
                     </div>

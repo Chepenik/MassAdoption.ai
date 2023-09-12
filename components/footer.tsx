@@ -13,11 +13,11 @@ export const Footer = () => {
           About
         </Link>
         <span className="text-gray-400"> | </span>
-        <Link href="https://1manstartup.com/terms-and-conditions" target="_blank" className='btn btn-link hover:text-gray-400'>
+        <Link href="/team" target="_blank" className='btn btn-link hover:text-gray-400'>
           Team
         </Link>
         <span className="text-gray-400"> | </span>
-        <Link href="mailto:Roads<dave@1manstartup.com>" className='btn btn-link hover:text-gray-400'>
+        <Link href="/contact" className='btn btn-link hover:text-gray-400'>
           Contact
         </Link>
         <p>Copyright © {current_year}, MassAdoption LLC. All Rights Reserved.</p>
