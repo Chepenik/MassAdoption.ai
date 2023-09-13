@@ -1,13 +1,12 @@
 {
-  "name": "next13-ai-saas",
+  "name": "next13-MassAdoption",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate"
+    "lint": "next lint"
   },
   "dependencies": {
     "@bradgarropy/next-google-analytics": "^1.0.2",
@@ -62,6 +61,5 @@
     "zustand": "^4.3.9"
   },
   "devDependencies": {
-    "prisma": "^5.1.1"
   }
 }
