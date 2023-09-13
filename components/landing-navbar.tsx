@@ -1,7 +1,6 @@
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import { useAuth } from "@clerk/nextjs";
 import { FaBars } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import {
@@ -12,8 +11,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+
 
 const font = Poppins({ weight: '600', subsets: ['latin'] });
 
