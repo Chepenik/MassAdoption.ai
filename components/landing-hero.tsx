@@ -21,6 +21,8 @@ export const LandingHero = () => {
               ],
               autoStart: true,
               loop: true,
+              delay: 50,
+              deleteSpeed: 0,  
             }}
           />
         </div>
