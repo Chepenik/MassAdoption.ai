@@ -6,25 +6,18 @@ import { Button } from '@/components/ui/button';
 const TeamPage = () => { 
     const [teamMembers, setTeamMembers] = useState ([
         {
-            name: 'Greg',
-            twitter: 'https://twitter.com/gwhoffmeister',
-            role: 'Founder',
-            image: 'https://i.nostr.build/vR96.jpg',
-            bio: 'Greg is a founding member of MassAdoption. He is a descendant of Mayflower passenger Stephen Hopkins and Revolutionary War soldier Seth Hopkins. He spent 25 years in commercial real estate and now coaches high school football, brews beer, and raises awareness of Bitcoin.',
-        },
-        {
-            name: 'Brendan',
-            twitter: 'https://twitter.com/BrendanQuinn84',
-            role: 'Advisor',
-            image: 'https://i.nostr.build/jqw5.jpg',
-            bio: 'Brendan is a lifelong learner and Advisor at Cantilever where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
-        },
-        {
             name: 'Jeff',
             twitter: 'https://twitter.com/BTC_MS_THRIVING',
             role: 'Founder',
             image: 'https://i.nostr.build/PYr8.jpg',
             bio: 'Jeff holds an accounting degree from the University of Massachusetts Business School and initially worked in public accounting. After gaining a profound understanding of financial statements, he built a successful chain of 40 high-end consignment stores across the U.S., eventually selling his stake to a private equity firm in 2009 and completing the sale in 2011. Following a non-compete agreement in the U.S., he expanded to Toronto, establishing an 18-store chain of used and vintage clothing shops. Health concerns led him to pass the CEO role to another in 2016, but in 2017, he returned to entrepreneurship with vintage clothing and sneaker stores in downtown Boston. Facing the challenges of the pandemic in 2020, Jeff made the strategic decision to close his retail businesses, allowing him to immerse himself in the world of Bitcoin.'
+        },
+        {
+            name: 'Greg',
+            twitter: 'https://twitter.com/gwhoffmeister',
+            role: 'Founder',
+            image: 'https://i.nostr.build/vR96.jpg',
+            bio: 'Greg is a founding member of MassAdoption. He is a descendant of Mayflower passenger Stephen Hopkins and Revolutionary War soldier Seth Hopkins. He spent 25 years in commercial real estate and now coaches high school football, brews beer, and raises awareness of Bitcoin.',
         },
         {
             name: 'Ron',
@@ -53,6 +46,13 @@ const TeamPage = () => {
             role: 'AI engineer',
             image: 'https://i.nostr.build/l38G.jpg',
             bio: 'Brandon is an engineer specializing in power generation. He believes Bitcoin is the embodiment of extreme ownership, and a tool to achieve sovereignty. Brandon also believes that Bitcoin will dematerialize the cost of energy which will improve the lives of everyone on Earth.'
+        },
+        {
+            name: 'Brendan',
+            twitter: 'https://twitter.com/BrendanQuinn84',
+            role: 'Advisor',
+            image: 'https://i.nostr.build/jqw5.jpg',
+            bio: 'Brendan is a lifelong learner and Advisor at Cantilever where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
         }
     ]);
 
