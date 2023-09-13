@@ -36,9 +36,6 @@ export const LandingHero = () => {
           </Button>
         </Link>
       </div>
-      <div className="text-zinc-400 text-xs md:text-sm font-normal">
-        MassAdoption starts in Massachusetts
-      </div>
       <br />
       <br />
       <br />
