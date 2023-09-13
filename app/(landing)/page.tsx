@@ -8,31 +8,31 @@ import { LandingHero } from '@/components/landing-hero';
 import { LandingNavbar } from '@/components/landing-navbar';
 import { Footer } from '@/components/footer';
 import { backgroundImages } from '@/components/backgroundImages';
-import { PhotoScroll } from '@/components/photo-scroll';
+// import { PhotoScroll } from '@/components/photo-scroll';
 
-const photos = [
-  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-  { src: '/../public/1.png', alt: 'Photo 2' },
-  { src: '/../public/photo.png', alt: 'Photo 3' },
-  { src: '/../public/1.png', alt: 'Photo 1' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-  { src: '/../public/public/logo.png', alt: 'Photo 3' },
-  { src: '/../public/public/empty.png', alt: 'Photo 1' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-  { src: '/../public/1.png', alt: 'Photo 2' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-  { src: '/../public/justacalculator.png', alt: 'Photo 1' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-  { src: '/../public/justacalculator.png', alt: 'Photo 3' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-  { src: '/../public/justacalculator.png', alt: 'Photo 2' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-  { src: '/../public/justacalculator.png', alt: 'Photo 2' },
-  { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-];
+// const photos = [
+//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+//   { src: '/../public/1.png', alt: 'Photo 2' },
+//   { src: '/../public/photo.png', alt: 'Photo 3' },
+//   { src: '/../public/1.png', alt: 'Photo 1' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+//   { src: '/../public/public/logo.png', alt: 'Photo 3' },
+//   { src: '/../public/public/empty.png', alt: 'Photo 1' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+//   { src: '/../public/1.png', alt: 'Photo 2' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
+//   { src: '/../public/justacalculator.png', alt: 'Photo 1' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
+//   { src: '/../public/justacalculator.png', alt: 'Photo 3' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+//   { src: '/../public/justacalculator.png', alt: 'Photo 2' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
+//   { src: '/../public/justacalculator.png', alt: 'Photo 2' },
+//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
+// ];
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -65,7 +65,7 @@ const LandingPage = () => {
         <LandingNavbar />
         <LandingHero />
         <LandingContent />
-        <PhotoScroll photos={photos} />
+        {/* <PhotoScroll photos={photos} /> */}
         <div className="iframe-wrapper">
           <iframe
             src="https://btcmap.org/map#6/41.88592/-69.43359"
