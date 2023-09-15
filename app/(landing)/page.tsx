@@ -46,7 +46,7 @@ const LandingPage = () => {
   }, [backgroundImage]);
 
   return (
-    <div>
+    <div className='bg-[#192339] '>
       <Head>
         {/* Add your meta tags, title, etc. here */}
       </Head>

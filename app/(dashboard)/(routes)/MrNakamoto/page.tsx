@@ -2,8 +2,8 @@
 
 export default function MrNakamotoPage() {
     return (
-        <div className="bg-white text-center padding-100">
-        <h1>Introducing Mr. Nakamoto, an innovative Bitcoin LLM (Learn, Leverage, Master) program designed exclusively for Bitcoin enthusiasts. Coming Soon!</h1>
+        <div className="m-4 min-h-screen flex items-center justify-center text-center py-16">
+        <h1>Introducing Mr. Nakamoto, an innovative Bitcoin LLM designed exclusively for answering any questions about Bitcoin with accuracy, and detail. Mr. Nakamoto is designed to deliver pure signal. Coming Soon!</h1>
       </div>
     );
   };

@@ -56,7 +56,6 @@ export const PhotoScroll: React.FC<PhotoScrollProps> = ({ photos }) => {
           </div>
       )}
 
-      {/* Photo List */}
       <div className="mt-4 flex items-center">
         <button
           onClick={handlePrev}

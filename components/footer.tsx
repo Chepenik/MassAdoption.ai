@@ -9,11 +9,11 @@ export const Footer = () => {
   return (
     <div id="section_footer">
       <div className='text-center py-4 text-white'>
-        <Link href="/about" target="_blank" className='btn btn-link hover:text-gray-400'>
+        <Link href="/about" className='btn btn-link hover:text-gray-400'>
           About
         </Link>
         <span className="text-gray-400"> | </span>
-        <Link href="/team" target="_blank" className='btn btn-link hover:text-gray-400'>
+        <Link href="/team" className='btn btn-link hover:text-gray-400'>
           Team
         </Link>
         <span className="text-gray-400"> | </span>
@@ -22,13 +22,13 @@ export const Footer = () => {
         </Link>
         <p>Copyright © {current_year}, MassAdoption LLC. All Rights Reserved.</p>
         <div>
-          <a href="https://twitter.com/BTC_Mass" target='_blank' className='hover:text-gray-400'>
+          <a href="https://twitter.com/BTC_Mass" className='hover:text-gray-400'>
             <FontAwesomeIcon icon={faTwitter} size="lg" className="mx-2" />
           </a>
-          <a href="https://github.com/Chepenik/MassAdoption.ai" target='_blank' className='hover:text-gray-400'>
+          <a href="https://github.com/Chepenik/MassAdoption.ai" className='hover:text-gray-400'>
             <FontAwesomeIcon icon={faGithub} size="lg" className="mx-2" />
           </a>
-          <a href="https://youtube.com/@massadoptionbtc" target='_blank' className='hover:text-gray-400'>
+          <a href="https://youtube.com/@massadoptionbtc" className='hover:text-gray-400'>
             <FontAwesomeIcon icon={faYoutube} size="lg" className="mx-2" />
           </a>
         </div>

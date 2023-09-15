@@ -75,7 +75,7 @@ const TeamPage = () => {
             <h2 className="text-3xl text-center mb-8 font-semibold">Our Team</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {teamMembers.map((member, index) => (
-                    <div key={index} className="bg-white shadow-md p-6 rounded-lg">
+                    <div key={index} className="bg-white shadow-md p-6 m-2 rounded-lg">
                         <img
                             src={member.image}
                             alt={member.name}
