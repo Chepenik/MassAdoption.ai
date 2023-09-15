@@ -54,8 +54,8 @@ export const LandingNavbar = () => {
               <Link href="/MrNakamoto">
                 <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
               </Link>
-              <Link href="/videos">
-                <DropdownMenuItem className="py-3">Videos</DropdownMenuItem>
+              <Link href="/merch">
+                <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
               <Link href="/team">
                 <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
@@ -63,7 +63,7 @@ export const LandingNavbar = () => {
               <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link href="/freedomfestival2024">
+              <Link target="_blank" href="/freedomfestival">
                 <DropdownMenuItem className="py-3">Freedom Fest '24</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
@@ -71,19 +71,23 @@ export const LandingNavbar = () => {
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Meetup  </span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup</span>
             </Link>
             <p>|</p>
             <Link target="_blank" href="/MrNakamoto">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Mr. Nakamoto  </span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
             </Link>
             <p>|</p>
             <Link target="_blank" href="/team">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Team  </span>
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Team</span>
             </Link>
             <p>|</p>
             <Link target="_blank" href="/merch">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
+            </Link>
+            <p>|</p>
+            <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
             </Link>
             <p>|</p>
             <Link target="_blank" href="/freedomfestival">
