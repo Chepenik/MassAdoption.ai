@@ -73,8 +73,8 @@ const LandingPage = () => {
             height="800px"
             style={{ padding: '100px 100px 100px 100px' }}
           />
-          <Footer />
         </div>
+        <Footer />
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 "use client"
 
-import React from 'react';
-
 export default function MerchPage() {
   return (
     <div className="text-white min-h-screen flex items-center justify-center text-center py-16">

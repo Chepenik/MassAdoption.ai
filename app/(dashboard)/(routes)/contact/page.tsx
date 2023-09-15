@@ -20,7 +20,7 @@ const ContactSection: React.FC = () => {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen bg-blue-700 text-white">
+    <section className="flex flex-col items-center justify-center min-h-screen bg-062343 text-white">
       <h2 className="text-4xl font-semibold mb-4">Contact Us</h2>
       <form className="flex flex-col items-center" onSubmit={handleSubmit}>
         <label htmlFor="email" className="text-lg mb-2">
