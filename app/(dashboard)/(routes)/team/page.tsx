@@ -17,7 +17,7 @@ const TeamPage = () => {
             twitter: 'https://twitter.com/gwhoffmeister',
             role: 'Founder',
             image: 'https://i.nostr.build/vR96.jpg',
-            bio: 'Greg is a founding member of MassAdoption. He is a descendant of Mayflower passenger Stephen Hopkins and Revolutionary War soldier Seth Hopkins. He spent 25 years in commercial real estate and now coaches high school football, brews beer, and raises awareness of Bitcoin.',
+            bio: '    Greg is a founding member of MassAdoption. Gregs Massachusetts roots run deep and a passion for entrepreneurialism, freedom and revolutionary ideas are steeped in his DNA. He is the 5th generation of his family to be born and raised in the town of Needham. Gregs family tree (through his maternal grandmother Barbara Hopkins) dates back over 400 years to the earliest days of new world colonialism. Greg is a descendant of Stephen Hopkins a Mayflower passenger who was a passenger on the Mayflower that settled Plymouth plantation and was one of the original signatories of the Mayflower Compact in 1620 which declared freedom from the indentures of the Virginia Company. Greg is also a descendent of Seth Hopkins who served in the Massachusetts militia during the Revolutionary War in 1776-1778 fighting for American freedom and independence. Greg is no stranger to playing the role of David vs Goliath. He spent 25 years in the commercial real estate industry building a small boutique brokerage and advisory firm that consistently fought and won business against bigger more established players in the industry. Greg now focuses his time on coaching high school football, building his nano brewery and taproom Black Rock Brewing Company and raising community awareness of Bitcoin and the importance of separating money from state in order to protect and regain freedom and our individual inalienable rights to privacy, property, free speech and sovereignty.',
         },
         {
             name: 'Ron',
@@ -31,7 +31,7 @@ const TeamPage = () => {
             twitter: 'https://twitter.com/ConorChepenik',
             role: 'Lead Developer',
             image: 'https://i.nostr.build/WklY.jpg',
-            bio: 'Conor graduated from Tufts University in 2020, he is a father & Bitcoiner determined to make sure his daughter can grow up in a world where money is backed by open-source software and math rather than violence. Conor is also on Nostr @ npub16syt2k5uky4pxycfttxrxmwwzht2t3008f2q68kw4almjl4guu9qea8t7y or use my NIP 5 Binmucker.'
+            bio: 'Conor graduated from Tufts University in 2020, he is a father & Bitcoiner determined to make sure his daughter can grow up in a world where money is backed by open-source software and math rather than violence. Conor is also on Nostr @ npub16syt2k5uky4pxycfttxrxmwwzht2t3008f2q68kw4almjl4guu9qea8t7y'
         },
         {
             name: 'Phil',
@@ -71,8 +71,8 @@ const TeamPage = () => {
     };
 
     return (
-        <section className="bg-gray-200 py-16">
-            <h2 className="text-3xl text-center mb-8 font-semibold">Our Team</h2>
+        <section className="bg-black py-16">
+            <h2 className="text-3xl text-center mb-8 font-semibold"><span className='text-blue-900'>Mass</span><span className='text-orange-500'>Adoption's</span><span className='text-white'> Team</span></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {teamMembers.map((member, index) => (
                     <div key={index} className="bg-white shadow-md p-6 m-2 rounded-lg">
