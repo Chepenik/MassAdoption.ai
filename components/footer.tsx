@@ -13,8 +13,8 @@ export const Footer = () => {
           About
         </Link>
         <span className="text-gray-400"> | </span>
-        <Link href="/team" className='btn btn-link hover:text-gray-400'>
-          Team
+        <Link href="https://geyser.fund/project/massadoption" className='btn btn-link hover:text-gray-400'>
+          Donate
         </Link>
         <span className="text-gray-400"> | </span>
         <Link href="/contact" className='btn btn-link hover:text-gray-400'>
