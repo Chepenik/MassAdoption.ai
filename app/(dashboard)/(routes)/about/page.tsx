@@ -51,7 +51,7 @@ export default function AboutPage() {
       <div className="bg-white p-4 md:p-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 pr-0 md:pr-8 text-center bg-white">
           <p>
-            To us, Bitcoin is the U.S constitution enscribed in cyber space. Thus, we are doing everything in our power to promote the peaceful revolution so we can have money backed by open source software and math instead of violence
+            To us, Bitcoin is the U.S constitution of cyber space. We are doing everything in our power to promote this peaceful revolution so humanity can have money backed by open source software and math instead of violence. We believe bitcoin is money and everything else is credit.
           </p>
         </div>
 
@@ -72,8 +72,12 @@ export default function AboutPage() {
         </p>
 
         <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" passHref>
-          <button className="mt-4 mb-4 bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition duration-300 ease-in-out">
+          <button className="mt-4 mb-4 bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-purple-700 transition duration-300 ease-in-out">
             Come to a Meetup
+          </button>
+          <br />
+          <button className="mt-4 mb-4 bg-purple-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition duration-300 ease-in-out">
+            Join this discord
           </button>
         </Link>
       </div>

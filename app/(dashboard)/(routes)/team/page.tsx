@@ -31,7 +31,7 @@ const TeamPage = () => {
             twitter: 'https://twitter.com/ConorChepenik',
             role: 'Lead Developer',
             image: 'https://i.nostr.build/WklY.jpg',
-            bio: 'Conor graduated from Tufts University in 2020, he is a father & Bitcoiner determined to make sure his daughter can grow up in a world where money is backed by open-source software and math rather than violence. Conor is also on Nostr @ npub16syt2k5uky4pxycfttxrxmwwzht2t3008f2q68kw4almjl4guu9qea8t7y'
+            bio: 'Conor is a father & Bitcoiner determined to make sure his daughter can grow up in a world where money is backed by open-source software and math rather than violence. You can find his podcast and articles at conorchepenik.com as well as enjoy the memes he shares on Nostr @ npub16syt2k5uky4pxycfttxrxmwwzht2t3008f2q68kw4almjl4guu9qea8t7y'
         },
         {
             name: 'Phil',

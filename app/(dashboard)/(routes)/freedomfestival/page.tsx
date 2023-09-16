@@ -3,7 +3,7 @@
 export default function FreedomFestival() {
   return (
     <div className="text-white min-h-screen flex items-center justify-center text-center py-16">
-      <h1>Tickets for the MassAdoption Freedom Festival are Coming Soon!</h1>
+      <h1>Tickets for the MassAdoption Freedom Festival are coming soon!</h1>
     </div>
   );
 }
