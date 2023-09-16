@@ -75,12 +75,15 @@ export default function AboutPage() {
           <button className="mt-4 mb-4 bg-orange-600 text-white py-2 px-4 rounded-full hover:bg-purple-700 transition duration-300 ease-in-out">
             Come to a Meetup
           </button>
-          <br />
-          <button className="mt-4 mb-4 bg-purple-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition duration-300 ease-in-out">
-            Join this discord
-          </button>
+        </Link>
+        <br />
+        <Link href="https://discord.gg/s9XqArewaH" passHref>
+        <button className="mt-4 mb-4 bg-purple-600 text-white py-2 px-4 rounded-full hover:bg-orange-700 transition duration-300 ease-in-out">
+          Join the discord
+        </button>
         </Link>
       </div>
     </div>
   );
 }
+
