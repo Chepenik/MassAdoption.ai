@@ -53,6 +53,20 @@ const TeamPage = () => {
             role: 'Advisor',
             image: 'https://i.nostr.build/jqw5.jpg',
             bio: 'Brendan is a lifelong learner and Advisor at Cantilever where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
+        },
+        {
+            name: 'Nick',
+            twitter: 'https://twitter.com/PlebNick',
+            role: 'Business Development',
+            image: 'https://image.nostr.build/26b4547bfb129f41a1733f5527acfa06ee907cb0307a4930ebf6ca6549026fe6.jpg',
+            bio: 'Nick is the business development guru.',
+        },
+        {
+            name: 'Kristina',
+            twitter: '',
+            role: 'Media Manager',
+            image: 'https://i.nostr.build/nb2873.jpeg',
+            bio: 'Bio and Twitter coming soon',
         }
     ]);
 

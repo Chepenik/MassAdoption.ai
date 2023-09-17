@@ -47,8 +47,8 @@ export const LandingNavbar = () => {
               <FaBars className="text-xl" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
-                <DropdownMenuLabel className="text-lg font-semibold">Meetup</DropdownMenuLabel>
+              <Link href="/freedomfestival" target="_blank">
+                <DropdownMenuLabel className="text-lg font-semibold">Freedom Fest '24</DropdownMenuLabel>
               </Link>
               <DropdownMenuSeparator />
               <Link href="/MrNakamoto">
@@ -63,13 +63,17 @@ export const LandingNavbar = () => {
               <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="/freedomfestival">
-                <DropdownMenuItem className="py-3">Freedom Fest '24</DropdownMenuItem>
+              <Link target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+                <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
           </DropdownMenu>
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
+            <Link target="_blank" href="/freedomfestival">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
+            </Link>
+            <p>|</p>
             <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup</span>
             </Link>
@@ -88,10 +92,6 @@ export const LandingNavbar = () => {
             <p>|</p>
             <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
-            </Link>
-            <p>|</p>
-            <Link target="_blank" href="/freedomfestival">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
           </div>
         )}
