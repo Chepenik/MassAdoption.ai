@@ -51,13 +51,13 @@ export const LandingNavbar = () => {
                 <DropdownMenuLabel className="text-lg font-semibold">Freedom Fest '24</DropdownMenuLabel>
               </Link>
               <DropdownMenuSeparator />
-              <Link href="/MrNakamoto">
+              <Link target="_blank" href="/MrNakamoto">
                 <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
               </Link>
-              <Link href="/merch">
+              <Link target="_blank" href="/merch">
                 <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
-              <Link href="/team">
+              <Link target="_blank" href="/team">
                 <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
               </Link>
               <Link target="_blank" href="https://sovereignstyleapparel.com/">
