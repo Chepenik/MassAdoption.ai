@@ -63,10 +63,10 @@ const TeamPage = () => {
         },
         {
             name: 'Kristina',
-            twitter: '',
+            twitter: 'https://twitter.com/KYannotta10',
             role: 'Media Manager',
-            image: 'https://i.nostr.build/nb2873.jpeg',
-            bio: 'Bio and Twitter coming soon',
+            image: 'https://image.nostr.build/bd7a04f43933c8b7b18e86d572b6c5cdd8b4e3d08536dd4043714a96df25cbdf.png',
+            bio: 'Kristina is our media guru. She is the reason MassAdoption has been able to share our incredible guest speakers with the world via Youtube',
         }
     ]);
 

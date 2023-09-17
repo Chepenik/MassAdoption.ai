@@ -66,6 +66,9 @@ export const LandingNavbar = () => {
               <Link target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
                 <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
+              <Link href="/about">
+                <DropdownMenuItem className="py-3">About</DropdownMenuItem>
+              </Link>
             </DropdownMenuContent>
           </DropdownMenu>
         ) : (
@@ -88,6 +91,10 @@ export const LandingNavbar = () => {
             <p>|</p>
             <Link target="_blank" href="/merch">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
+            </Link>
+            <p>|</p>
+            <Link target="_blank" href="/about">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span>
             </Link>
             <p>|</p>
             <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
