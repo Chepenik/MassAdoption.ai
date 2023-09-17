@@ -45,7 +45,7 @@ const ContactSection: React.FC = () => {
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)} 
-          className="border rounded-lg px-4 py-2 w-64 focus:outline-none focus:border-orange-500" 
+          className="border rounded-lg text-black px-4 py-2 w-64 focus:outline-none focus:border-orange-500" 
           placeholder="Enter your email" 
           required
         />
@@ -57,7 +57,7 @@ const ContactSection: React.FC = () => {
           name="phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
-          className="border rounded-lg px-4 py-2 w-64 focus:outline-none focus:border-orange-500"
+          className="border rounded-lg text-black px-4 py-2 w-64 focus:outline-none focus:border-orange-500"
           placeholder="Enter your phone"
           required
         />
@@ -68,7 +68,7 @@ const ContactSection: React.FC = () => {
           name="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="border rounded-lg px-4 py-2 w-64 h-24 resize-none focus:outline-none focus:border-orange-500"
+          className="border rounded-lg text-black px-4 py-2 w-64 h-24 resize-none focus:outline-none focus:border-orange-500"
           placeholder="Enter your message"
           required
         ></textarea>
