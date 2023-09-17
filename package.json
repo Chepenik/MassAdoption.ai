@@ -24,6 +24,7 @@
     "@radix-ui/react-select": "^1.2.2",
     "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@superfaceai/one-sdk": "^2.4.2",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -57,7 +58,5 @@
     "typewriter-effect": "^2.20.1",
     "zod": "^3.21.4",
     "zustand": "^4.3.9"
-  },
-  "devDependencies": {
   }
 }
