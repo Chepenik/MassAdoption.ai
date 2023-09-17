@@ -60,7 +60,7 @@ export const LandingNavbar = () => {
               <Link href="/team">
                 <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
+              <Link target="_blank" href="https://sovereignstyleapparel.com/">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
               <Link target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
@@ -97,7 +97,7 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or">
+            <Link target="_blank" href="https://sovereignstyleapparel.com/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
             </Link>
           </div>
