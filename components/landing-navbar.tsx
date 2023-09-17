@@ -66,7 +66,7 @@ export const LandingNavbar = () => {
               <Link target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
                 <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
-              <Link href="/about">
+              <Link target="_blank" href="/about">
                 <DropdownMenuItem className="py-3">About</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
