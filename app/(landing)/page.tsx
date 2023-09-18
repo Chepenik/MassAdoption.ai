@@ -41,7 +41,7 @@ const LandingPage = () => {
     const interval = setInterval(() => {
       const index = backgroundImages.indexOf(backgroundImage);
       setBackgroundImage(backgroundImages[(index + 1) % backgroundImages.length]);
-    }, 10000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [backgroundImage]);
 
