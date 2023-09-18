@@ -47,57 +47,57 @@ export const LandingNavbar = () => {
               <FaBars className="text-xl" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              <Link href="/freedomfestival" target="_blank">
+              <Link href="/freedomfestival">
                 <DropdownMenuLabel className="text-lg font-semibold">Freedom Fest '24</DropdownMenuLabel>
               </Link>
               <DropdownMenuSeparator />
-              <Link target="_blank" href="/MrNakamoto">
+              <Link href="/MrNakamoto">
                 <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="/merch">
+              <Link href="/merch">
                 <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="/team">
+              <Link href="/team">
                 <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="https://sovereignstyleapparel.com/">
+              <Link href="https://sovereignstyleapparel.com/">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+              <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
                 <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
-              <Link target="_blank" href="/about">
+              <Link href="/about">
                 <DropdownMenuItem className="py-3">About</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
           </DropdownMenu>
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
-            <Link target="_blank" href="/freedomfestival">
+            <Link href="/freedomfestival">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
             <p>|</p>
-            <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/" target="_blank">
+            <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="/MrNakamoto">
+            <Link href="/MrNakamoto">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="/team">
+            <Link href="/team">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Team</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="/merch">
+            <Link href="/merch">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="/about">
+            <Link href="/about">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span>
             </Link>
             <p>|</p>
-            <Link target="_blank" href="https://sovereignstyleapparel.com/">
+            <Link href="https://sovereignstyleapparel.com/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
             </Link>
           </div>
