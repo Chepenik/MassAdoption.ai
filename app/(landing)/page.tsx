@@ -66,6 +66,7 @@ const LandingPage = () => {
         <LandingHero />
         <LandingContent />
         {/* <PhotoScroll photos={photos} /> */}
+        
         <div className="iframe-wrapper">
           <iframe
             src="https://btcmap.org/map#6/41.88592/-69.43359"

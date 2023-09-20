@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 export const About = () => {
     return (
+        //smaller images, don't need 4 sections, make it sweet, simple
         <>
         <div className="mt-10 mb-10">
             <div className="flex flex-col md:flex-row md:justify-center">

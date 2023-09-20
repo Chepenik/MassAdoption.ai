@@ -9,7 +9,7 @@ interface Photo {
 interface PhotoScrollProps {
   photos: Photo[];
 }
-
+// add a section for ai, 24 festival, meetup photos, Old freedom festival photos, affiliates 
 export const PhotoScroll: React.FC<PhotoScrollProps> = ({ photos }) => {
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
   const [photoIndex, setPhotoIndex] = useState(0);
