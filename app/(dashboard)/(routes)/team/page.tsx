@@ -115,4 +115,6 @@ const TeamPage = () => {
     );
 }
 
+// update the team section to have nice pop up no alert, add an email section for people to subscribe, work on fixing About Page, and get a nice photo scroll section setup
+
 export default TeamPage;
