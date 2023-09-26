@@ -19,7 +19,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, content }) => {
       <div className="z-10 bg-white p-8 rounded-lg max-w-md w-full relative">
         <button
           onClick={closeModal}
-          className="absolute top-2 right-2 text-orange-600 hover:text-red-800 cursor-pointer"
+          className="absolute top-2 right-2 text-orange-600 hover:text-red-800 cursor-pointer text-2xl"
         >
           X
         </button>

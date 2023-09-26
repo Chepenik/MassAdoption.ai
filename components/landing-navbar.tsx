@@ -60,10 +60,10 @@ export const LandingNavbar = () => {
               <Link href="/team">
                 <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
               </Link>
-              <Link href="https://sovereignstyleapparel.com/">
+              <Link target="_blank" rel="noopener" href="https://sovereignstyleapparel.com/">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+              <Link target="_blank" rel="noopener" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
                 <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
               <Link href="/about">
@@ -77,7 +77,7 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
             <p>|</p>
-            <Link href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+            <Link target="_blank" rel="noopener"  href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup</span>
             </Link>
             <p>|</p>
@@ -97,7 +97,7 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span>
             </Link>
             <p>|</p>
-            <Link href="https://sovereignstyleapparel.com/">
+            <Link target="_blank" rel="noopener"  href="https://sovereignstyleapparel.com/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
             </Link>
           </div>

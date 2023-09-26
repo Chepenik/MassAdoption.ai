@@ -11,7 +11,7 @@ import Modal from '@/components/ModalProps';
                 twitter: 'https://twitter.com/BTC_MS_THRIVING',
                 role: 'Founder',
                 image: 'https://i.nostr.build/PYr8.jpg',
-                bio: 'Jeff holds an accounting degree from the University of Massachusetts Business School and initially worked in public accounting. After gaining a profound understanding of financial statements, he built a successful chain of 40 high-end consignment stores across the U.S., eventually selling his stake to a private equity firm in 2009 and completing the sale in 2011. Following a non-compete agreement in the U.S., he expanded to Toronto, establishing an 18-store chain of used and vintage clothing shops. Health concerns led him to pass the CEO role to another in 2016, but in 2017, he returned to entrepreneurship with vintage clothing and sneaker stores in downtown Boston. Facing the challenges of the pandemic in 2020, Jeff made the strategic decision to close his retail businesses, allowing him to immerse himself in the world of Bitcoin.'
+                bio: 'Jeff holds an accounting degree from the University of Massachusetts Business School and initially worked in public accounting. After gaining a profound understanding of financial statements, he built a successful chain of 40 high-end consignment stores across the U.S. In 2009 Jeff sold a portion of his company and then in 2011 sold his remaining interest in the company. Following a non-compete agreement in the U.S., he expanded to Toronto, establishing an 18-store chain of used and vintage clothing shops. Health concerns led him to pass the CEO role to another in 2016, but in 2017, he returned to entrepreneurship with vintage clothing and sneaker stores in downtown Boston. Facing the challenges of the pandemic in 2020, Jeff made the strategic decision to close his retail businesses, allowing him to immerse himself in the world of Bitcoin.'
             },
             {
                 name: 'Greg',
@@ -53,7 +53,7 @@ import Modal from '@/components/ModalProps';
                 twitter: 'https://twitter.com/BrendanQuinn84',
                 role: 'Advisor',
                 image: 'https://i.nostr.build/jqw5.jpg',
-                bio: 'Brendan is a lifelong learner and Advisor at Cantilever where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
+                bio: 'Brendan is a lifelong learner and founding partner of Cantilever Advisors, LLC where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
             },
             {
                 name: 'Nick',
@@ -68,7 +68,21 @@ import Modal from '@/components/ModalProps';
                 role: 'Media Manager',
                 image: 'https://image.nostr.build/bd7a04f43933c8b7b18e86d572b6c5cdd8b4e3d08536dd4043714a96df25cbdf.png',
                 bio: 'Kristina is our media guru. She is the reason MassAdoption has been able to share our incredible guest speakers with the world via Youtube',
-            }
+            },
+            {
+                name: 'Mickey',
+                twitter: 'https://twitter.com/Mickdub29',
+                role: 'AI Engineer',
+                image: 'https://i.nostr.build/lnXv.jpg',
+                bio: 'Avid singer, runner, competitor, uncle, and friend',
+            },
+            {
+                name: 'Async Thoughts',
+                twitter: 'https://twitter.com/async_thoughts',
+                role: 'AI Engineer',
+                image: 'https://i.nostr.build/8eAG.jpg',
+                bio: 'Computational data market maxi',
+            },
         ]);
       const [selectedMember, setSelectedMember] = useState(null);
       const [isModalOpen, setIsModalOpen] = useState(false);
