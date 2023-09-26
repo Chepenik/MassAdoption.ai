@@ -3,6 +3,9 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import Modal from '@/components/ModalProps';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
     
     const TeamPage = () => {
         const [teamMembers, setTeamMembers] = useState ([
@@ -53,7 +56,7 @@ import Modal from '@/components/ModalProps';
                 twitter: 'https://twitter.com/BrendanQuinn84',
                 role: 'Advisor',
                 image: 'https://i.nostr.build/jqw5.jpg',
-                bio: 'Brendan is a lifelong learner and founding partner of Cantilever Advisors, LLC where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first. ',
+                bio: 'Brendan is a lifelong learner and founding partner of Cantilever Advisors, LLC where he helps people leverage digital assets. Cantilvers investment framework is Bitcoin first.',
             },
             {
                 name: 'Nick',
@@ -67,21 +70,21 @@ import Modal from '@/components/ModalProps';
                 twitter: 'https://twitter.com/KYannotta10',
                 role: 'Media Manager',
                 image: 'https://image.nostr.build/bd7a04f43933c8b7b18e86d572b6c5cdd8b4e3d08536dd4043714a96df25cbdf.png',
-                bio: 'Kristina is our media guru. She is the reason MassAdoption has been able to share our incredible guest speakers with the world via Youtube',
+                bio: 'Kristina is our media guru. She is the reason MassAdoption has been able to share our incredible guest speakers with the world via Youtube.',
             },
             {
                 name: 'Mickey',
                 twitter: 'https://twitter.com/Mickdub29',
                 role: 'AI Engineer',
                 image: 'https://i.nostr.build/lnXv.jpg',
-                bio: 'Avid singer, runner, competitor, uncle, and friend',
+                bio: 'Avid singer, runner, competitor, uncle, and friend.',
             },
             {
                 name: 'Async Thoughts',
                 twitter: 'https://twitter.com/async_thoughts',
                 role: 'AI Engineer',
                 image: 'https://i.nostr.build/8eAG.jpg',
-                bio: 'Computational data market maxi',
+                bio: 'Computational data market maxi.',
             },
         ]);
       const [selectedMember, setSelectedMember] = useState(null);
@@ -124,10 +127,10 @@ import Modal from '@/components/ModalProps';
                     <i className="fab fa-twitter text-blue-500 text-xl"></i>
                   </a>
                   <Button
-                    className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded"
+                    className="text-xl bg-gray-800 hover:bg-gray-400 text-gray-800 font-medium py-2 px-4 rounded"
                     onClick={() => handleXClick(index)}
                   >
-                    X
+                    <FontAwesomeIcon icon={faTwitter} className='text-blue-300' />
                   </Button>
                   <Button
                     className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-4 rounded"
