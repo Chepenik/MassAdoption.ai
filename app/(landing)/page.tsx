@@ -8,6 +8,7 @@ import { LandingHero } from '@/components/landing-hero';
 import { LandingNavbar } from '@/components/landing-navbar';
 import { Footer } from '@/components/footer';
 import { backgroundImages } from '@/components/backgroundImages';
+import MailchimpForm from '@/components/MailChimp';
 // import { PhotoScroll } from '@/components/photo-scroll';
 
 // const photos = [
@@ -64,6 +65,8 @@ const LandingPage = () => {
       >
         <LandingNavbar />
         <LandingHero />
+        <MailchimpForm />
+        <br />
         <LandingContent />
         {/* <PhotoScroll photos={photos} /> */}
         
