@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import Modal from '@/components/ModalProps';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
     
@@ -130,7 +130,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
                     className="text-xl bg-gray-800 hover:bg-gray-400 text-gray-800 font-medium py-2 px-4 rounded"
                     onClick={() => handleXClick(index)}
                   >
-                    <FontAwesomeIcon icon={faTwitter} className='text-blue-300' />
+                    <FontAwesomeIcon icon={faXTwitter} className='text-blue-300' />
                   </Button>
                   <Button
                     className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-4 rounded"

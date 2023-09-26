@@ -50,8 +50,6 @@ export const LandingHero = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
     </div>
   );
 };
