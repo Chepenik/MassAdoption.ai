@@ -130,7 +130,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
                     className="text-xl bg-gray-800 hover:bg-gray-400 text-gray-800 font-medium py-2 px-4 rounded"
                     onClick={() => handleXClick(index)}
                   >
-                    <FontAwesomeIcon icon={faXTwitter} className='text-blue-300' />
+                    <FontAwesomeIcon icon={faXTwitter} className='text-white hover:text-blue-300' />
                   </Button>
                   <Button
                     className="bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-4 rounded"
