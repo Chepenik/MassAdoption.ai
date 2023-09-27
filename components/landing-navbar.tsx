@@ -12,7 +12,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-
 const font = Poppins({ weight: '600', subsets: ['latin'] });
 
 export const LandingNavbar = () => {
@@ -69,6 +68,9 @@ export const LandingNavbar = () => {
               <Link href="/about">
                 <DropdownMenuItem className="py-3">About</DropdownMenuItem>
               </Link>
+              <Link href="/partners">
+                <DropdownMenuItem className="py-3">Partners</DropdownMenuItem>
+              </Link>
             </DropdownMenuContent>
           </DropdownMenu>
         ) : (
@@ -99,6 +101,10 @@ export const LandingNavbar = () => {
             <p>|</p>
             <Link target="_blank" rel="noopener"  href="https://sovereignstyleapparel.com/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
+            </Link>
+            <p>|</p>
+            <Link href="/partners">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Partners</span>
             </Link>
           </div>
         )}

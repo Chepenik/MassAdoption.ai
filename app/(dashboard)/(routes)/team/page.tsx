@@ -42,7 +42,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
                 twitter: 'https://twitter.com/NEEDcreations',
                 role: 'Project Manager',
                 image: 'https://i.nostr.build/3D4X.jpg',
-                bio: 'Phil is a Bitcoin educator, node runner and home miner. Phils accomplishments in the Bitcoin space include creating and managing a Bitcoin Education Discord, creating 2 Bitcoin products with Satoshis Journal (educational playing cards and a childrens book), and working as the project manager for Mass Adoptions Freedom Festival.'
+                bio: 'Phil is a Bitcoin educator, node runner and home miner. Phil\'s accomplishments in the Bitcoin space include creating and managing a Bitcoin Education Discord, creating 2 Bitcoin products with Satoshis Journal (educational playing cards and a childrens book), and working as the project manager for Mass Adoptions Freedom Festival.'
             },
             {
                 name: 'Brandon',
