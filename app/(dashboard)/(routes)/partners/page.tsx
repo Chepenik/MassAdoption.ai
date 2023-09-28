@@ -5,19 +5,24 @@ import Link from "next/link";
 
 const partners = [
   { 
-    name: "Satoshi's Journal", 
-    url: "https://satoshisjournal.com/",
-    image: "https://i.nostr.build/3AVM.jpg" 
-  },
-  { 
     name: "The Beef Initiative",
     url: "https://beefinitiative.com/",
     image: "https://i.nostr.build/y92m.webp"
+  },
+  { 
+    name: "Satoshi's Journal", 
+    url: "https://satoshisjournal.com/",
+    image: "https://i.nostr.build/3AVM.jpg" 
   },
   {
     name: "River", 
     url: "https://river.com/",
     image: "https://i.nostr.build/vgA7.webp"
+  },
+  {
+    name: "The Bitcoin App", 
+    url: "https://thebitcoinapp.io/",
+    image: "https://i.nostr.build/R2Kn.png"
   },
 ];
 
