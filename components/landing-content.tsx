@@ -23,14 +23,23 @@ const testimonials = [
     title: "Author of Honking For Freedom & Big Rig Driver",
     videoSrc: "https://www.youtube.com/embed/ARbX1iwxT9Q",
   },
-  // Add other testimonial objects here
+  {
+   name: "Jason Maier",
+   title: "Author Of The Progressive Case for Bitcoin",
+   videoSrc: "https://www.youtube.com/embed/eoUaetaq9LE?si=upRvArxDbANztKuN"  
+  },
+  {
+    name: "Round Table",
+    title: "Freedom, Boston and Bitcoin",
+    videoSrc: "https://www.youtube.com/embed/7C1JJNFA9tM?si=Xxjwa33DagyskP1P"  
+   }
 ];
 
 export const LandingContent = () => {
   return (
     <div className="px-10 pb-20">
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">Our Speaker Series</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"> {/* Changed grid-cols-4 to grid-cols-3 */}
         {testimonials.map((item) => (
           <Card key={item.name} className="bg-[#192339] border-none text-white">
             <CardHeader>
