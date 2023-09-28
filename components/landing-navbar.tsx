@@ -71,6 +71,9 @@ export const LandingNavbar = () => {
               <Link href="/partners">
                 <DropdownMenuItem className="py-3">Partners</DropdownMenuItem>
               </Link>
+              <Link href="/magazine">
+                <DropdownMenuItem className="py-3">Magazine</DropdownMenuItem>
+              </Link>
             </DropdownMenuContent>
           </DropdownMenu>
         ) : (
@@ -105,6 +108,10 @@ export const LandingNavbar = () => {
             <p>|</p>
             <Link href="/partners">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Partners</span>
+            </Link>
+            <p>|</p>
+            <Link href="/magazine">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Magazine</span>
             </Link>
           </div>
         )}
