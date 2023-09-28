@@ -12,7 +12,7 @@ const partners = [
   { 
     name: "Satoshi's Journal", 
     url: "https://satoshisjournal.com/",
-    image: "https://i.nostr.build/3AVM.jpg" 
+    image: "https://i.nostr.build/X7nl.png" 
   },
   {
     name: "River", 
