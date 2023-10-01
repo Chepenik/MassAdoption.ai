@@ -53,6 +53,9 @@ export const LandingNavbar = () => {
               <Link href="/MrNakamoto">
                 <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
               </Link>
+              <Link target="_blank" rel="noopener" href="https://thebitcoinapp.io/">
+                <DropdownMenuItem className="py-3">The Bitcoin App</DropdownMenuItem>
+              </Link>
               <Link href="/merch">
                 <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
