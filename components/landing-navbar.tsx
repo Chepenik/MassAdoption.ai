@@ -56,26 +56,23 @@ export const LandingNavbar = () => {
               <Link target="_blank" rel="noopener" href="https://thebitcoinapp.io/">
                 <DropdownMenuItem className="py-3">The Bitcoin App</DropdownMenuItem>
               </Link>
-              <Link href="/merch">
-                <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
-              </Link>
-              <Link href="/team">
-                <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
+              <Link target="_blank" rel="noopener" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
+                <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
               </Link>
               <Link target="_blank" rel="noopener" href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or?_pos=1&_sid=2594e2377&_ss=r">
                 <DropdownMenuItem className="py-3">Affiliates</DropdownMenuItem>
               </Link>
-              <Link target="_blank" rel="noopener" href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
-                <DropdownMenuItem className="py-3">Meetup</DropdownMenuItem>
+              <Link href="/magazine">
+                <DropdownMenuItem className="py-3">Magazine</DropdownMenuItem>
               </Link>
-              <Link href="/about">
-                <DropdownMenuItem className="py-3">About</DropdownMenuItem>
+              <Link href="/team">
+                <DropdownMenuItem className="py-3">Team</DropdownMenuItem>
+              </Link>
+              <Link href="/merch">
+                <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
               <Link href="/partners">
                 <DropdownMenuItem className="py-3">Partners</DropdownMenuItem>
-              </Link>
-              <Link href="/magazine">
-                <DropdownMenuItem className="py-3">Magazine</DropdownMenuItem>
               </Link>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -85,12 +82,20 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
             <p>|</p>
+            <Link href="/MrNakamoto">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
+            </Link>
+            <p>|</p>
             <Link target="_blank" rel="noopener"  href="https://www.meetup.com/massachusetts-bitcoin-meetup/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup</span>
             </Link>
             <p>|</p>
-            <Link href="/MrNakamoto">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
+            <Link target="_blank" rel="noopener"  href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or?_pos=1&_sid=2594e2377&_ss=r">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
+            </Link>
+            <p>|</p>
+            <Link href="/magazine">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Magazine</span>
             </Link>
             <p>|</p>
             <Link href="/team">
@@ -101,20 +106,8 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
             </Link>
             <p>|</p>
-            <Link href="/about">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span>
-            </Link>
-            <p>|</p>
-            <Link target="_blank" rel="noopener"  href="https://sovereignstyleapparel.com/products/massadoption-affiliate-portland-or?_pos=1&_sid=2594e2377&_ss=r">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Affiliates</span>
-            </Link>
-            <p>|</p>
             <Link href="/partners">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Partners</span>
-            </Link>
-            <p>|</p>
-            <Link href="/magazine">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Magazine</span>
             </Link>
           </div>
         )}
