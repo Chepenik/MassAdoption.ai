@@ -35,7 +35,7 @@ export const LandingNavbar = () => {
   return (
     <nav className="p-4 bg-transparent text-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-12 w-12 mr-6">
+        <div className="relative rounded-full h-12 w-12 mr-6">
           <Image fill alt="Logo" src="/massadoption.png" />
         </div>
       </Link>
