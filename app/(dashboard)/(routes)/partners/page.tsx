@@ -23,6 +23,11 @@ const partners = [
     name: "Satoshi's Journal", 
     url: "https://satoshisjournal.com/",
     image: "https://i.nostr.build/X7nl.png" 
+  },
+  { 
+    name: "Athena Alpha", 
+    url: "https://www.athena-alpha.com/",
+    image: "https://i.nostr.build/aeBr.jpg" 
   }
 ];
 
