@@ -37,7 +37,7 @@ export const LandingNavbar = () => {
     <nav className="p-4 bg-transparent text-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <div className="relative h-12 w-12 mr-6"> {/* Added 'rounded-full' class */}
-          <Image fill alt="Logo" src={massadoption} className="rounded-full" />
+          <Image alt="Logo" src={massadoption} className="rounded-full" width={200} height={200} />
         </div>
       </Link>
       <div className="flex items-center gap-x-2">
@@ -85,6 +85,10 @@ export const LandingNavbar = () => {
             <p>|</p>
             <Link href="/MrNakamoto">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
+            </Link>
+            <p>|</p>
+            <Link target="_blank" rel="noopener"  href="https://thebitcoinapp.io/">
+              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">The BTC App</span>
             </Link>
             <p>|</p>
             <Link target="_blank" rel="noopener"  href="https://www.meetup.com/massachusetts-bitcoin-meetup/">

@@ -70,6 +70,7 @@ const LandingPage = () => {
         {/* <PhotoScroll photos={photos} /> */}
         
         <div className="iframe-wrapper">
+          <h1 className='text-center text-white text-4xl'>Find Local Businesses That Accept BTC</h1>
           <iframe
             src="https://btcmap.org/map#6/41.88592/-69.43359"
             width="100%"
