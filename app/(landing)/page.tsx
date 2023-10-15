@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Head from 'next/head';
 import { LandingContent } from '@/components/landing-content';
 import { LandingHero } from '@/components/landing-hero';
