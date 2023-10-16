@@ -1,38 +1,12 @@
 "use client"
 
 import { useState, useEffect } from 'react';
-import Head from 'next/head';
 import { LandingContent } from '@/components/landing-content';
 import { LandingHero } from '@/components/landing-hero';
 import { LandingNavbar } from '@/components/landing-navbar';
 import { Footer } from '@/components/footer';
 import { backgroundImages } from '@/components/backgroundImages';
 import MailchimpForm from '@/components/MailChimp';
-// import { PhotoScroll } from '@/components/photo-scroll';
-
-// const photos = [
-//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-//   { src: '/../public/1.png', alt: 'Photo 2' },
-//   { src: '/../public/photo.png', alt: 'Photo 3' },
-//   { src: '/../public/1.png', alt: 'Photo 1' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-//   { src: '/../public/public/logo.png', alt: 'Photo 3' },
-//   { src: '/../public/public/empty.png', alt: 'Photo 1' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-//   { src: '/../public/1.png', alt: 'Photo 2' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-//   { src: '/../public/justacalculator.png', alt: 'Photo 1' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 2' },
-//   { src: '/../public/justacalculator.png', alt: 'Photo 3' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-//   { src: '/../public/justacalculator.png', alt: 'Photo 2' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 1' },
-//   { src: '/../public/justacalculator.png', alt: 'Photo 2' },
-//   { src: '/../public/purplebsky.png', alt: 'Photo 3' },
-// ];
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -47,9 +21,6 @@ const LandingPage = () => {
 
   return (
     <div className='bg-[#192339] '>
-      <Head>
-        {/* Add your meta tags, title, etc. here */}
-      </Head>
       <div
         style={{
           position: 'absolute',
@@ -64,11 +35,18 @@ const LandingPage = () => {
       >
         <LandingNavbar />
         <LandingHero />
+        <div className="hidden sm:block"> 
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
         <MailchimpForm />
         <br />
         <LandingContent />
-        {/* <PhotoScroll photos={photos} /> */}
-        
         <div className="iframe-wrapper">
           <h1 className='text-center text-white text-4xl'>Find Local Businesses That Accept BTC</h1>
           <iframe
