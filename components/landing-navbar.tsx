@@ -37,7 +37,8 @@ export const LandingNavbar = () => {
     <nav className="p-4 bg-transparent text-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
         <div className="relative h-12 w-12 mr-6"> {/* Added 'rounded-full' class */}
-          <Image alt="Logo" src={massadoption} className="rounded-full" width={200} height={200} />
+        <Image alt="Logo" src={massadoption} className="rounded-full" />
+
         </div>
       </Link>
       <div className="flex items-center gap-x-2">
