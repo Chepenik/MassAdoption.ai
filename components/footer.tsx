@@ -12,7 +12,7 @@ export const Footer = () => {
           About
         </Link>
         <span className="text-gray-400"> | </span>
-        <Link href="https://geyser.fund/project/massadoption" className='btn btn-link hover:text-gray-400'>
+        <Link href="https://getalby.com/p/MassAdoption" className='btn btn-link hover:text-gray-400'>
           Donate
         </Link>
         <span className="text-gray-400"> | </span>
