@@ -1,8 +1,7 @@
-"use client";
 import Link from 'next/link';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub, faYoutube, faDiscord } from '@fortawesome/free-brands-svg-icons'; // Added faDiscord
 
 export const Footer = () => {
   const current_year = new Date().getFullYear();
@@ -30,6 +29,9 @@ export const Footer = () => {
           </a>
           <a href="https://youtube.com/@massadoptionbtc" className='hover:text-gray-400'>
             <FontAwesomeIcon icon={faYoutube} size="lg" className="mx-2" />
+          </a>
+          <a href="https://discord.gg/q9KH8uNS" className='hover:text-gray-400'>
+            <FontAwesomeIcon icon={faDiscord} size="lg" className="mx-2" /> 
           </a>
         </div>
       </div>

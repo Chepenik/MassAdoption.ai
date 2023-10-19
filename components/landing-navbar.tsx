@@ -1,6 +1,6 @@
 import { Poppins } from "next/font/google";
 import Image from "next/image";
-import massadoption from "../public/massadoption.png"
+import massadoption from "../public/MASS ADOPTIONclearlogo.png"
 import Link from "next/link";
 import { FaBars } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
@@ -36,9 +36,8 @@ export const LandingNavbar = () => {
   return (
     <nav className="p-4 bg-transparent text-white flex items-center justify-between">
       <Link href="/" className="flex items-center">
-        <div className="relative h-12 w-12 mr-6"> {/* Added 'rounded-full' class */}
+        <div className="relative h-24 w-24 mr-6"> 
         <Image alt="Logo" src={massadoption} className="rounded-full" />
-
         </div>
       </Link>
       <div className="flex items-center gap-x-2">
