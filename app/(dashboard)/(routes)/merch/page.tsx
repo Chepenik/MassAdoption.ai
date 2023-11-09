@@ -6,37 +6,37 @@ const MerchPage = () => {
       imageSrc: 'https://i.nostr.build/JEzW.jpg',
       altText: 'Black T-Shirt',
       title: 'Black T-Shirt',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption/',
     },
     {
       imageSrc: 'https://i.nostr.build/eAk3.jpg',
       altText: 'Orange T-Shirt',
       title: 'Orange T-Shirt',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption/',
     },
     {
       imageSrc: 'https://i.nostr.build/rReV.png',
       altText: 'White T-Shirt',
       title: 'White T-Shirt',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption/',
     },
     {
       imageSrc: 'https://i.nostr.build/XAmB.png',
       altText: 'Black Hoodie',
       title: 'Black Hoodie',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption-hoodie/',
     },
     {
       imageSrc: 'https://i.nostr.build/EGWP.png',
       altText: 'Orange Hoodie',
       title: 'Orange Hoodie',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption-hoodie/',
     },
     {
       imageSrc: 'https://i.nostr.build/mgej.png',
       altText: 'White Hoodie',
       title: 'White Hoodie',
-      link: 'https://www.proofofink.com/13-massadoption',
+      link: 'https://proofofink.com/product/massadoption-hoodie/',
     },
   ];
 
