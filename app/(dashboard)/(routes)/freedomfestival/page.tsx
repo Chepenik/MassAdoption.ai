@@ -2,17 +2,20 @@
 
 import Head from 'next/head';
 import React from 'react';
+import massadoption from "../../../../public/MASS ADOPTIONclearlogo.png"
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
   const speakers = [
-    { name: 'Speaker 1', imgSrc: 'https://i.nostr.build/Yn6A.png' },
-    { name: 'Speaker 2', imgSrc: 'https://cdn.nostr.build/p/nb3961.jpeg' },
-    { name: 'Speaker 3', imgSrc: 'https://i.nostr.build/x9De.png' },
-    { name: 'Speaker 4', imgSrc: 'https://cdn.nostr.build/p/nb1656.jpeg' },
-    { name: 'Speaker 5', imgSrc: 'https://i.nostr.build/a6kq.png' },
-    { name: 'Speaker 6', imgSrc: 'https://i.nostr.build/eAJG.png' },
-    { name: 'Speaker 7', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
-    { name: 'Speaker 8', imgSrc: 'https://i.nostr.build/O8EQ.png' },
+    { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg' },
+    { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg' },
+    { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg' },
+    { name: 'Speaker 4 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1656.jpeg' },
+    { name: 'Speaker 5 coming soon', imgSrc: 'https://i.nostr.build/a6kq.png' },
+    { name: 'Speaker 6 coming soon', imgSrc: 'https://i.nostr.build/eAJG.png' },
+    { name: 'Speaker 7 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
+    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
     // ... Add more speakers as needed
   ];
 
@@ -25,7 +28,11 @@ const Home: React.FC = () => {
       </Head>
 
       <nav className="flex justify-between items-center p-4 shadow-md bg-slate-700">
-        <div className="font-bold text-xl text-white">Freedom & Bitcoin Festival 2024</div>
+      <Link href="/" className="flex items-center">
+        <div className="relative h-24 w-24 mr-6"> 
+          <Image alt="Logo" src={massadoption} className="rounded-full" />
+        </div>
+      </Link>
         <div>
           <a href="#about" className="p-2 hover:underline text-white">About</a>
           <a href="#lineup" className="p-2 hover:underline text-white">Lineup</a>
@@ -37,13 +44,13 @@ const Home: React.FC = () => {
 
       <main className="p-8 bg-gray-900">
         <h1 className="text-4xl font-bold mb-6 text-white">Embrace the Future of Finance and Freedom</h1>
-        <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of cryptocurrency.</p>
+        <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of Bitcoin.</p>
         
         <iframe className="w-full h-96 my-8 rounded-lg" src="https://www.youtube.com/embed?listType=playlist&list=XXXXXXX" title="Freedom Festival Promo" frameBorder="0" allowFullScreen></iframe>
         
         <section id="about" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
-          <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on the transformative power of Bitcoin, we're gathering freedom-loving individuals to discuss, debate, and celebrate the role of cryptocurrency in securing personal liberty.</p>
+          <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on the transformative power of Bitcoin, we're gathering freedom-loving individuals to discuss, debate, and celebrate the role of Bitcoin in securing personal liberty.</p>
         </section>
         
         <section id="lineup" className="my-8">
