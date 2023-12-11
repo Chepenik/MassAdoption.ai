@@ -36,7 +36,7 @@ const Home: React.FC = () => {
         <div>
           <a href="#about" className="p-2 hover:underline text-white">About</a>
           <a href="#lineup" className="p-2 hover:underline text-white">Lineup</a>
-          <a href="#tickets" className="p-2 hover:underline text-white">Tickets</a>
+          <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="p-2 hover:underline text-white">Tickets</a>
           <a href="#faq" className="p-2 hover:underline text-white">FAQ</a>
           {/* Add more navigation items here */}
         </div>
@@ -46,7 +46,7 @@ const Home: React.FC = () => {
         <h1 className="text-4xl font-bold mb-6 text-white">Embrace the Future of Finance and Freedom</h1>
         <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of Bitcoin.</p>
         
-        <iframe className="w-full h-96 my-8 rounded-lg" src="https://www.youtube.com/embed?listType=playlist&list=XXXXXXX" title="Freedom Festival Promo" frameBorder="0" allowFullScreen></iframe>
+        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
         
         <section id="about" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
         
         <section id="lineup" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Our Stellar Lineup</h2>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {speakers.map((speaker) => (
               <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={speaker.name}>
                 <img src={speaker.imgSrc} alt={speaker.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
@@ -85,9 +85,9 @@ const Home: React.FC = () => {
         <p>Stay updated with the latest news. Follow us on social media and join the conversation with #FreedomFest2024 #BitcoinFreedom</p>
       </footer>
 
-      <button className="fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+      <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
         Buy Tickets
-      </button>
+      </a>
     </>
   );
 };
