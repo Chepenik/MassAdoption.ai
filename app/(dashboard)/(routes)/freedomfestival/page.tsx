@@ -28,19 +28,19 @@ const Home: React.FC = () => {
       </Head>
 
       <nav className="flex justify-between items-center p-4 shadow-md bg-slate-700">
-      <Link href="/" className="flex items-center">
-        <div className="relative h-24 w-24 mr-6"> 
-          <Image alt="Logo" src={massadoption} className="rounded-full" />
+      <Link href="/" passHref>
+        <div className="flex items-center cursor-pointer">
+          <Image alt="Logo" src={massadoption} className="rounded-full" width={96} height={96} />
         </div>
       </Link>
-        <div>
-          <a href="#about" className="p-2 hover:underline text-white">About</a>
-          <a href="#lineup" className="p-2 hover:underline text-white">Lineup</a>
-          <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="p-2 hover:underline text-white">Tickets</a>
-          <a href="#faq" className="p-2 hover:underline text-white">FAQ</a>
-          {/* Add more navigation items here */}
-        </div>
-      </nav>
+      <div>
+        <Link href="#about" passHref><span className="p-2 hover:underline text-white cursor-pointer">About</span></Link>
+        <Link href="#lineup" passHref><span className="p-2 hover:underline text-white cursor-pointer">Lineup</span></Link>
+        <Link href="#activities" passHref><span className="p-2 hover:underline text-white cursor-pointer">Activities</span></Link>
+        <Link href="https://massadoptionbtc.ticketspice.com/massadoption-2024" passHref><span className="p-2 hover:underline text-white cursor-pointer">Tickets</span></Link>
+        <Link href="#faq" passHref><span className="p-2 hover:underline text-white cursor-pointer">FAQ</span></Link>
+      </div>
+    </nav>
 
       <main className="p-8 bg-gray-900">
         <h1 className="text-4xl font-bold mb-6 text-white">Embrace the Future of Finance and Freedom</h1>
@@ -65,6 +65,19 @@ const Home: React.FC = () => {
           </div>
         </section>
 
+        <section id="activities" className="my-8">
+          <h2 className="text-3xl font-bold mb-4 text-white">Festival Activities</h2>
+          <div className="text-gray-300">
+            <ul className="list-disc ml-4">
+              <li>Parkour Demonstrations</li>
+              <li>Interactive Workshops</li>
+              <li>Cattlemen’s Feast</li>
+              <li>Soccer Tournaments</li>
+              <li>VC Networking Hour</li>
+              {/* Add more activities here */}
+            </ul>
+          </div>
+        </section>
 
         <section id="tickets" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Secure Your Spot</h2>
