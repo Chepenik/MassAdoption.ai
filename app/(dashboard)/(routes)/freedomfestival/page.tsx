@@ -31,16 +31,16 @@ const Home: React.FC = () => {
     };
   }, []);
 
+  const mc = { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/radV.jpg' };
 
   const speakers = [
-    { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/radV.jpg' },
     { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg' },
     { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg' },
     { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg' },
     { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg' },
-    { name: 'Speaker 6 coming soon', imgSrc: 'https://i.nostr.build/eAJG.png' },
-    { name: 'Speaker 7 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
-    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
+    { name: 'Speaker 5 coming soon', imgSrc: 'https://i.nostr.build/eAJG.png' },
+    { name: 'Speaker 6 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
+    { name: 'Speaker 7 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
     // ... Add more speakers as needed
   ];
 
@@ -97,13 +97,25 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
         
         <section id="lineup" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Our Stellar Lineup</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {speakers.map((speaker) => (
-              <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={speaker.name}>
-                <img src={speaker.imgSrc} alt={speaker.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
-                <h3 className="text-white">{speaker.name}</h3>
-              </div>
-            ))}
+
+          <div className="mb-8 text-center">
+            <h3 className="text-2xl font-bold mb-2 text-white">Master of Ceremonies</h3>
+            <div className="p-4 bg-slate-800 rounded-lg shadow-lg">
+              <img src={mc.imgSrc} alt={mc.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
+              <h4 className="text-white">{mc.name}</h4>
+            </div>
+          </div>
+          
+          <div className="mb-8 text-center">
+            <h3 className="text-2xl font-bold mb-2 text-white">Bitcoin Speakers</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {speakers.map((speaker) => (
+                <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={speaker.name}>
+                  <img src={speaker.imgSrc} alt={speaker.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
+                  <h4 className="text-white">{speaker.name}</h4>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
