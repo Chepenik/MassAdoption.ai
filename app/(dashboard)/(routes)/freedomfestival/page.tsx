@@ -119,6 +119,12 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           </div>
         </section>
 
+        <section id="merchandise" className="my-8">
+          <h2 className="text-3xl font-bold mb-4 text-white">Official Merchandise</h2>
+          <p className="text-gray-300">Get your official Freedom Festival 2024 merchandise! Show your support and style with our exclusive collection.</p>
+          <a href="https://proofofink.com/product/massadoption/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
+        </section>
+
         <section id="activities" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Festival Activities</h2>
           <div className="text-gray-300">
