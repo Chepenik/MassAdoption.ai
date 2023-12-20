@@ -31,7 +31,7 @@ const Home: React.FC = () => {
     };
   }, []);
 
-  const mc = { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/radV.jpg' };
+  const mc = { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/l9Kw.png' };
 
   const speakers = [
     { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg' },
@@ -41,7 +41,7 @@ const Home: React.FC = () => {
     { name: 'Speaker 5 coming soon', imgSrc: 'https://i.nostr.build/eAJG.png' },
     { name: 'Speaker 6 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
     { name: 'Speaker 7 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
-    // ... Add more speakers as needed
+    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/x9De.png' },
   ];
 
    return (
@@ -73,10 +73,10 @@ const Home: React.FC = () => {
           </DropdownMenu>
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
-            <Link href="#about" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span></Link>
-            <Link href="#lineup" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Lineup</span></Link>
-            <Link href="#activities" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Activities</span></Link>
-            <Link href="https://massadoptionbtc.ticketspice.com/massadoption-2024" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Tickets</span></Link>
+            <Link href="#about" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span> | </Link>
+            <Link href="#lineup" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Lineup</span> | </Link>
+            <Link href="#activities" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Activities</span> | </Link>
+            <Link href="https://massadoptionbtc.ticketspice.com/massadoption-2024" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Tickets</span> | </Link>
             <Link href="#faq" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">FAQ</span></Link>
           </div>
         )}
