@@ -38,8 +38,8 @@ const Home: React.FC = () => {
     { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg' },
     { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg' },
     { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg' },
-    { name: 'Speaker 5 coming soon', imgSrc: 'https://i.nostr.build/eAJG.png' },
-    { name: 'Speaker 6 coming soon', imgSrc: 'https://cdn.nostr.build/p/nb1655.jpg' },
+    { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg' },
+    { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
     { name: 'Speaker 7 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
     { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/x9De.png' },
   ];
@@ -130,6 +130,7 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           <div className="text-gray-300">
             <ul className="list-disc ml-4">
               <li>Parkour Demonstrations</li>
+              <li>Bitcoin Speakers</li>
               <li>Interactive Workshops</li>
               <li>Cattlemen’s Feast</li>
               <li>Live music</li>
