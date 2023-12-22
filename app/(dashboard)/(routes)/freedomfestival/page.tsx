@@ -40,7 +40,7 @@ const Home: React.FC = () => {
     { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg' },
     { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg' },
     { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
-    { name: 'Speaker 7 coming soon', imgSrc: 'https://i.nostr.build/O8EQ.png' },
+    { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg' },
     { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/x9De.png' },
   ];
 
@@ -129,8 +129,8 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           <h2 className="text-3xl font-bold mb-4 text-white">Festival Activities</h2>
           <div className="text-gray-300">
             <ul className="list-disc ml-4">
-              <li>Parkour Demonstrations</li>
               <li>Bitcoin Speakers</li>
+              <li>Parkour Demonstrations</li>
               <li>Interactive Workshops</li>
               <li>Cattlemen’s Feast</li>
               <li>Live music</li>
