@@ -131,7 +131,7 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
 
           <p className="text-xl mb-2 text-white">
 
-Come and celebrate the launching of Freedom Festt 2024 with our monthly meet up and inaugural Pleb party the night before the festival.
+Come and celebrate the launching of Freedom Fest 2024 with our monthly meet up and inaugural pleb party the night before the festival.
 
 Have a chance to mingle with your favorite Bitcoiners, have some food and drink and enjoy some very special speakers/presentations.
  
