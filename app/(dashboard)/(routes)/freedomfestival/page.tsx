@@ -42,6 +42,9 @@ const Home: React.FC = () => {
     { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
     { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg' },
     { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/x9De.png' },
+    { name: 'Speaker 9 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
+    { name: 'Speaker 10 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
+   
   ];
 
    return (
@@ -107,7 +110,7 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           </div>
           
           <div className="mb-8 text-center">
-            <h3 className="text-2xl font-bold mb-2 text-white">Bitcoin Speakers</h3>
+          <h3 className="text-2xl font-bold mb-2 text-white">Bitcoin Speakers</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {speakers.map((speaker) => (
                 <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={speaker.name}>
@@ -117,6 +120,20 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
               ))}
             </div>
           </div>
+        </section>
+
+        <section id="lineup" className="my-8">
+          <h2 className="text-3xl font-bold mb-4 text-white">Meetup/Pleb Party – May 3rd.</h2>
+
+          <p className="text-xl mb-2 text-white">
+
+Come and celebrate the launching of Freedom Festt 2024 with our monthly meet up and inaugural Pleb party the night before the festival.
+
+Have a chance to mingle with your favorite Bitcoiners, have some food and drink and enjoy some very special speakers/presentations.
+ 
+This is your chance in a relaxed and friendly atmosphere to interact or like-minded people and chances are you’ll be able to talk one on one with some of your most famous bitcoin personalities.
+
+Help make our inaugural party asuccess and we’ll see you there.</p>
         </section>
 
         <section id="merchandise" className="my-8">
