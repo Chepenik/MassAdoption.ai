@@ -69,8 +69,10 @@ const Home: React.FC = () => {
             <DropdownMenuContent>
               <Link href="#about" passHref><DropdownMenuItem>About</DropdownMenuItem></Link>
               <Link href="#lineup" passHref><DropdownMenuItem>Lineup</DropdownMenuItem></Link>
+              <Link href="#meetup" passHref><DropdownMenuItem>Meetup/Pleb Party</DropdownMenuItem></Link>
               <Link href="#activities" passHref><DropdownMenuItem>Activities</DropdownMenuItem></Link>
-              <Link href="https://massadoptionbtc.ticketspice.com/massadoption-2024" passHref><DropdownMenuItem>Tickets</DropdownMenuItem></Link>
+              <Link href="#merchandise" passHref><DropdownMenuItem>Merchandise</DropdownMenuItem></Link>
+              <Link href="#tickets" passHref><DropdownMenuItem>Tickets</DropdownMenuItem></Link>
               <Link href="#faq" passHref><DropdownMenuItem>FAQ</DropdownMenuItem></Link>
             </DropdownMenuContent>
           </DropdownMenu>
@@ -78,8 +80,10 @@ const Home: React.FC = () => {
           <div className="hidden lg:flex items-center gap-x-2">
             <Link href="#about" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">About</span> | </Link>
             <Link href="#lineup" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Lineup</span> | </Link>
+            <Link href="#meetup" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Meetup/Pleb Party</span> | </Link>
             <Link href="#activities" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Activities</span> | </Link>
-            <Link href="https://massadoptionbtc.ticketspice.com/massadoption-2024" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Tickets</span> | </Link>
+            <Link href="#merchandise" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merchandise</span> | </Link>
+            <Link href="#tickets" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Tickets</span> | </Link>
             <Link href="#faq" passHref><span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">FAQ</span></Link>
           </div>
         )}
@@ -122,7 +126,7 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           </div>
         </section>
 
-        <section id="lineup" className="my-8">
+        <section id="meetup" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Meetup/Pleb Party – May 3rd.</h2>
 
           <p className="text-xl mb-2 text-white">
