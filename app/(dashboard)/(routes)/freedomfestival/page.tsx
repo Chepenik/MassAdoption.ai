@@ -41,7 +41,7 @@ const Home: React.FC = () => {
     { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg' },
     { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
     { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg' },
-    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/x9De.png' },
+    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
     { name: 'Speaker 9 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
     { name: 'Speaker 10 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
    
@@ -135,9 +135,9 @@ Come and celebrate the launching of Freedom Fest 2024 with our monthly meet up a
 
 Have a chance to mingle with your favorite Bitcoiners, have some food and drink and enjoy some very special speakers/presentations.
  
-This is your chance in a relaxed and friendly atmosphere to interact or like-minded people and chances are you’ll be able to talk one on one with some of your most famous bitcoin personalities.
+This is your chance in a relaxed and friendly atmosphere to interact with like-minded people and chances are you’ll be able to talk one on one with some of your most famous bitcoin personalities.
 
-Help make our inaugural party asuccess and we’ll see you there.</p>
+Help make our inaugural party a success and we’ll see you there.</p>
         </section>
 
         <section id="merchandise" className="my-8">
