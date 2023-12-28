@@ -41,7 +41,7 @@ const Home: React.FC = () => {
     { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg' },
     { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
     { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg' },
-    { name: 'Speaker 8 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
+    { name: 'Hailey Lennon', imgSrc: 'https://i.nostr.build/qPE8.jpg' },
     { name: 'Speaker 9 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
     { name: 'Speaker 10 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
    
