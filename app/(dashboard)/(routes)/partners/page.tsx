@@ -20,6 +20,11 @@ const partners = [
     image: "https://i.nostr.build/R2Kn.png"
   },
   { 
+    name: "The Bitcoin Adviser",
+    url: "https://www.thebitcoinadviser.com/",
+    image: "https://i.nostr.build/rEGV.png"
+  },
+  { 
     name: "The Beef Initiative",
     url: "https://beefinitiative.com/",
     image: "https://i.nostr.build/y92m.webp"
