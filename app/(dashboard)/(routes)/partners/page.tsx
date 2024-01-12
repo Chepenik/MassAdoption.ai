@@ -32,7 +32,7 @@ const partners = [
   { 
     name: "BitcoinNews.com",
     url: "https://bitcoinnews.com/",
-    image: "https://i.nostr.build/D9xV.png"
+    image: "https://i.nostr.build/56vv.png"
   },
   { 
     name: "Satoshi's Journal", 

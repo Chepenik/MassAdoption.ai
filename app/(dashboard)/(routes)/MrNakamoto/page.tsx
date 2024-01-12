@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function MrNakamotoPage() {
     return (
         <div className="m-4 text-white min-h-screen flex flex-col items-center justify-center text-center py-16">
-            <h1 className="mb-2.5">Introducing Mr. Nakamoto, a Bitcoin LLM designed to answer any question about Bitcoin with accuracy and detail. Mr. Nakamoto is made to deliver pure signal ;D</h1>
+            <h1 className="mb-2.5">Introducing Mr. Nakamoto, a Bitcoin LLM designed to answer any question about Bitcoin with accuracy and detail. Our own LLM is Coming soon but in the meantime click the photo below for a GPT trained on bitcoin data!</h1>
             <div className="rounded-full overflow-hidden">
                 <a href="https://chat.openai.com/g/g-2Z9CpJRSs-mr-nakamoto" target="_blank" rel="noopener noreferrer">
                     <Image 
