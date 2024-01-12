@@ -67,9 +67,6 @@ export const LandingNavbar = () => {
                 <DropdownMenuItem className="py-3">Documentary Film</DropdownMenuItem>
               </Link>
               <Link href="/doc">
-                <DropdownMenuItem className="py-3">Start A Meetup</DropdownMenuItem>
-              </Link>
-              <Link href="/doc">
                 <DropdownMenuItem className="py-3">Advisory Services</DropdownMenuItem>
               </Link>
               <Link href="/merch">
