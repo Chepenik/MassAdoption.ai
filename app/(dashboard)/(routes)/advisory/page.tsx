@@ -8,7 +8,8 @@ export default function Meetup() {
                 <ul className="list-decimal list-inside mb-4">
                     <p>Will help you buy, secure and manage your bitcoin so you will sleep well at night knowing your wealth is protected.</p>
                     <br />
-                    <li>Our services include</li>
+                    <p>Our services include:</p>
+                    <br />
                     <li>-Buying bitcoin using exchanges </li>
                     <li>-Custody (Wallets) and security </li>
                     <li>-Education and advice </li>
