@@ -5,7 +5,9 @@ import React, { useState, useEffect } from 'react';
 import massadoption from "../../../../public/MASS ADOPTIONclearlogo.png";
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaBars } from 'react-icons/fa';
+import { FaBars} from 'react-icons/fa'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons'; 
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -34,16 +36,16 @@ const Home: React.FC = () => {
   const mc = { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/l9Kw.png' };
 
   const speakers = [
-    { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg' },
-    { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg' },
-    { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg' },
-    { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg' },
-    { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg' },
-    { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg' },
-    { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg' },
-    { name: 'Hailey Lennon', imgSrc: 'https://i.nostr.build/qPE8.jpg' },
-    { name: 'Michael Schmid', imgSrc: 'https://i.nostr.build/LZA9.jpg' },
-    { name: 'Speaker 10 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png' },
+    { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg', twitterUrl: 'https://twitter.com/BJDichter' },
+    { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg', twitterUrl: 'https://twitter.com/cjasonmaier' },
+    { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg', twitterUrl: 'https://twitter.com/modernTman' },
+    { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg', twitterUrl: 'https://twitter.com/DAAF17' },
+    { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg', twitterUrl: 'https://twitter.com/luke_broyles' },
+    { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg', twitterUrl: 'https://twitter.com/michelleweekley' },
+    { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg', twitterUrl: 'https://twitter.com/surferjimw' },
+    { name: 'Hailey Lennon', imgSrc: 'https://i.nostr.build/qPE8.jpg', twitterUrl: 'https://twitter.com/HaileyLennonBTC' },
+    { name: 'Michael Schmid', imgSrc: 'https://i.nostr.build/LZA9.jpg', twitterUrl: 'https://twitter.com/Schnitzel' },
+    { name: 'Speaker 10 coming soon', imgSrc: 'https://i.nostr.build/8DBz.png', twitterUrl: 'https://twitter.com/ConorChepenik' },
    
   ];
 
@@ -115,15 +117,20 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
           
           <div className="mb-8 text-center">
           <h3 className="text-2xl font-bold mb-2 text-white">Bitcoin Speakers</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {speakers.map((speaker) => (
-                <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={speaker.name}>
-                  <img src={speaker.imgSrc} alt={speaker.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
-                  <h4 className="text-white">{speaker.name}</h4>
-                </div>
-              ))}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {speakers.map((speaker, index) => (
+            <div className="text-center p-4 bg-slate-800 rounded-lg shadow-lg" key={index}>
+              <img src={speaker.imgSrc} alt={speaker.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
+              <h4 className="text-white">{speaker.name}</h4>
+              {speaker.twitterUrl && (
+                <a href={speaker.twitterUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">
+                  Follow on X
+                </a>
+              )}
             </div>
+          ))}
           </div>
+        </div>
         </section>
 
         <section id="meetup" className="my-8">
