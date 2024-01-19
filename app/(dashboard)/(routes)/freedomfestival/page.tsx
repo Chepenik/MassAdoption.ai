@@ -16,6 +16,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { mergeConfigs } from 'tailwind-merge';
 
 const Home: React.FC = () => {
   const [isMobileScreen, setIsMobileScreen] = useState(false);
@@ -33,7 +34,11 @@ const Home: React.FC = () => {
     };
   }, []);
 
-  const mc = { name: 'Anders Kargaard', imgSrc: 'https://i.nostr.build/l9Kw.png' };
+  const mc = {
+    name: 'Anders Kargaard', 
+    imgSrc: 'https://i.nostr.build/l9Kw.png', 
+    twitterUrl: 'https://twitter.com/Anders_' 
+  };
 
   const speakers = [
     { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg', twitterUrl: 'https://twitter.com/BJDichter' },
@@ -112,6 +117,9 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
             <div className="p-4 bg-slate-800 rounded-lg shadow-lg">
               <img src={mc.imgSrc} alt={mc.name} className="mx-auto rounded-lg w-32 h-32 object-cover mb-2" />
               <h4 className="text-white">{mc.name}</h4>
+              <a href={mc.twitterUrl} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">
+                  Follow on X
+                </a>
             </div>
           </div>
           
