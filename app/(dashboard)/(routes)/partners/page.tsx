@@ -15,9 +15,9 @@ const partners = [
     image: "https://i.nostr.build/jy6M.png"
   },
   {
-    name: "The Bitcoin App", 
-    url: "https://thebitcoinapp.io/",
-    image: "https://i.nostr.build/R2Kn.png"
+    name: "Orange Pill App", 
+    url: "https://www.theorangepillapp.com/",
+    image: "https://i.nostr.build/mmkj.png"
   },
   { 
     name: "The Bitcoin Adviser",
