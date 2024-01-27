@@ -40,6 +40,11 @@ const partners = [
     image: "https://i.nostr.build/X7nl.png" 
   },
   { 
+    name: "High Hash Rate", 
+    url: "https://www.highhashrate.com/",
+    image: "https://i.nostr.build/rQMw.png" 
+  },
+  { 
     name: "Athena Alpha", 
     url: "https://www.athena-alpha.com/",
     image: "https://i.nostr.build/aeBr.jpg" 
