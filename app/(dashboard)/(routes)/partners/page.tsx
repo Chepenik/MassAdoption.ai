@@ -19,6 +19,11 @@ const partners = [
     url: "https://www.theorangepillapp.com/",
     image: "https://i.nostr.build/mmkj.png"
   },
+  {
+    name: "MGM Springfield", 
+    url: "https://mgmspringfield.mgmresorts.com/en.html",
+    image: "https://i.nostr.build/O6z0.png"
+  },
   { 
     name: "The Bitcoin Adviser",
     url: "https://www.thebitcoinadviser.com/",
