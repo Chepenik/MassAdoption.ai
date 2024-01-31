@@ -38,13 +38,6 @@ const LandingPage = () => {
         <FestivalBanner /> 
         <LandingHero />
         <div className="hidden sm:block"> 
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
         </div>
         <MailchimpForm />
         <br />
