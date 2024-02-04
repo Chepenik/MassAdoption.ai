@@ -10,12 +10,14 @@ export default function Meetup() {
                     <br />
                     <p>Our services include:</p>
                     <br />
-                    <li>-Buying bitcoin using exchanges </li>
-                    <li>-Custody (Wallets) and security </li>
-                    <li>-Education and advice </li>
-                    <li>-Retirement </li>
-                    <li>-Risk Management </li>
-                    <li>-Family/inheritance planning</li>
+                    <li>Buying bitcoin using exchanges </li>
+                    <li>Custody (Wallets) and security </li>
+                    <li>Education and advice </li>
+                    <li>Nodes</li>
+                    <li>Mining</li>
+                    <li>Retirement </li>
+                    <li>Risk Management </li>
+                    <li>Family/inheritance planning</li>
                 </ul>
                 <p>
                     Please email us at <a href="mailto:MassAdoptionbtc@gmail.com" className="text-blue-400 hover:text-blue-300">MassAdoptionbtc@gmail.com</a> to learn more!
