@@ -161,6 +161,17 @@ Help make our inaugural party a success and we’ll see you there.</p>
           <a href="https://proofofink.com/product/massadoption/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
         </section>
 
+        <section id="merchandise" className="my-8 px-4 md:px-0">
+            <h2 className="text-3xl font-bold mb-4 text-white">Getting here and hotel</h2>
+            <p className="text-gray-300 mb-6">Hotel and transport accomdation recommend my MassAdoption for the Freedom Festival 2024! Feel free to reach out to us with questions.</p>
+            <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+                <a href="https://bradleyairport.com" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Bradley Airport</a>
+                <a href="https://www.massport.com/logan-airport" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Logan Airport</a>
+                <a href="https://book.passkey.com/event/50771380/owner/49687830/home" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Hotel</a>
+            </div>
+        </section>
+
+
         <section id="activities" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Festival Activities</h2>
           <div className="text-gray-300">
@@ -173,6 +184,8 @@ Help make our inaugural party a success and we’ll see you there.</p>
               <li>Bitcoin DJ’s</li>
               <li>Soccer tournament</li>
               <li>Contests/prizes</li>
+              <li>Hot tub powered by ASICS miners</li>
+              <li>Cold plunge from a certified Wim Hoff instructor </li>
             </ul>
           </div>
         </section>
