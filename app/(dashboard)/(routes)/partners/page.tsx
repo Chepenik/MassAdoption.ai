@@ -40,6 +40,11 @@ const partners = [
     image: "https://i.nostr.build/y92m.webp"
   },
   { 
+    name: "Cantilever",
+    url: "https://www.cantileveradvisors.co/",
+    image: "https://i.nostr.build/6ygW.png"
+  },
+  { 
     name: "BitcoinNews.com",
     url: "https://bitcoinnews.com/",
     image: "https://i.nostr.build/56vv.png"
