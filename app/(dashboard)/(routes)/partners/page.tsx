@@ -5,6 +5,11 @@ import Link from "next/link";
 
 const partners = [
   {
+    name: "Unchained", 
+    url: "https://unchained.com/",
+    image: "https://i.nostr.build/xvxe.png"
+  },
+  {
     name: "River", 
     url: "https://river.com/",
     image: "https://i.nostr.build/vgA7.webp"
