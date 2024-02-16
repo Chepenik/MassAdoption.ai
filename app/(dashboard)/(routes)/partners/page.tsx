@@ -55,6 +55,16 @@ const partners = [
     image: "https://i.nostr.build/X7nl.png" 
   },
   { 
+    name: "BTC Trading Cards", 
+    url: "https://btc-tc.com/",
+    image: "https://i.nostr.build/VJJj.png" 
+  },
+  {
+    name: "Adams Farm",
+    url: "https://adamsfarm.biz/",
+    image: "https://i.nostr.build/gool.png"
+  },
+  { 
     name: "High Hash Rate", 
     url: "https://www.highhashrate.com/",
     image: "https://i.nostr.build/rQMw.png" 
