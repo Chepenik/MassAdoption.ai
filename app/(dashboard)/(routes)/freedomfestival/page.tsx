@@ -158,18 +158,28 @@ Help make our inaugural party a success and we’ll see you there.</p>
         <section id="merchandise" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Official Merchandise</h2>
           <p className="text-gray-300">Get your official Freedom Festival 2024 merchandise! Show your support and style with our exclusive collection.</p>
-          <a href="https://proofofink.com/product/massadoption/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
+          <a href="https://proofofink.com/product/massadoption/" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
         </section>
 
-        <section id="merchandise" className="my-8 px-4 md:px-0">
-            <h2 className="text-3xl font-bold mb-4 text-white">Getting here and hotel</h2>
-            <p className="text-gray-300 mb-6">Hotel and transport accomdation recommend my MassAdoption for the Freedom Festival 2024! Feel free to reach out to us with questions.</p>
-            <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                <a href="https://bradleyairport.com" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Bradley Airport</a>
-                <a href="https://www.massport.com/logan-airport" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Logan Airport</a>
-                <a href="https://book.passkey.com/event/50771380/owner/49687830/home" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full inline-block text-center">Hotel</a>
-            </div>
+        <section id="merchandise" className="my-8 px-4 md:px-8 lg:px-16">
+          <h2 className="text-4xl font-bold mb-6 text-white">Getting here and hotel</h2>
+          <p className="text-gray-200 mb-8 md:mb-10">Hotel and transport accommodation recommended by MassAdoption for the Freedom Festival 2024! Feel free to reach out to us with questions.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
+                  <p className="text-lg font-medium text-gray-300 mb-2 text-center">Hartford Airport</p>
+                  <a href="https://bradleyairport.com" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Bradley Airport</a>
+              </div>
+              <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
+                  <p className="text-lg font-medium text-gray-300 mb-2 text-center">Boston Airport</p>
+                  <a href="https://www.massport.com/logan-airport" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Logan Airport</a>
+              </div>
+              <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
+                  <p className="text-gray-200 mb-4 lg:mb-6">For discounted rooms at the MGM Springfield click below</p>
+                  <a href="https://book.passkey.com/event/50771380/owner/49687830/home" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Hotel</a>
+              </div>
+          </div>
         </section>
+
 
 
         <section id="activities" className="my-8">
@@ -182,7 +192,7 @@ Help make our inaugural party a success and we’ll see you there.</p>
               <li>Cattlemen’s Feast</li>
               <li>Live music</li>
               <li>Bitcoin DJ’s</li>
-              <li>Soccer tournament</li>
+              <li>Soccer Contest</li>
               <li>Contests/prizes</li>
               <li>Hot tub powered by ASICS miners</li>
               <li>Cold plunge from a certified Wim Hoff instructor </li>
@@ -209,7 +219,7 @@ Help make our inaugural party a success and we’ll see you there.</p>
         <p>Stay updated with the latest news. Follow us on social media and join the conversation with #FreedomFest2024 #BitcoinFreedom</p>
       </footer>
 
-      <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="fixed bottom-4 right-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+      <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="fixed bottom-4 right-4 transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
         Buy Tickets
       </a>
     </>
