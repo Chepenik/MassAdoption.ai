@@ -51,7 +51,8 @@ const Home: React.FC = () => {
     { name: 'Hailey Lennon', imgSrc: 'https://i.nostr.build/qPE8.jpg', twitterUrl: 'https://twitter.com/HaileyLennonBTC' },
     { name: 'Michael Schmid', imgSrc: 'https://i.nostr.build/LZA9.jpg', twitterUrl: 'https://twitter.com/Schnitzel' },
     { name: 'James “Combo” Marino', imgSrc: 'https://i.nostr.build/w7xx.png', twitterUrl: 'https://twitter.com/BTC_Mass' },
-    { name: 'Bitcoin Kendal', imgSrc: 'https://i.nostr.build/3yqZ.png', twitterUrl: 'https://twitter.com/bitcoinkendal?s=21&t=0P3tRJeFY9pZd2-HhyTugw' },
+    { name: 'Bitcoin Kendal', imgSrc: 'https://i.nostr.build/3yqZ.png', twitterUrl: 'https://twitter.com/bitcoinkendal' },
+    { name: "Adam O'Brien", imgSrc: 'https://i.nostr.build/P3j0.png', twitterUrl: 'https://twitter.com/adamobrien_' },
   ];
 
    return (
