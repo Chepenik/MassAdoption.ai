@@ -73,6 +73,11 @@ const partners = [
     name: "Athena Alpha", 
     url: "https://www.athena-alpha.com/",
     image: "https://i.nostr.build/aeBr.jpg" 
+  },
+  { 
+    name: "Panties For Bitcoin", 
+    url: "https://www.pantiesforbitcoin.com/",
+    image: "https://i.nostr.build/8BEB.png" 
   }
 ];
 
