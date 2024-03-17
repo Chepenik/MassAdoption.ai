@@ -72,7 +72,7 @@ export const LandingNavbar = () => {
               <Link href="/advisory">
                 <DropdownMenuItem className="py-3">Advisory Services</DropdownMenuItem>
               </Link>
-              <Link href="/merch">
+              <Link href="https://proofofink.com/mass-adoption/">
                 <DropdownMenuItem className="py-3">Merch</DropdownMenuItem>
               </Link>
               <Link href="/partners">
@@ -114,7 +114,7 @@ export const LandingNavbar = () => {
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Advisory Services</span>
             </Link>
             <p>|</p>
-            <Link href="/merch">
+            <Link href="https://proofofink.com/mass-adoption/">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Merch</span>
             </Link>
             <p>|</p>

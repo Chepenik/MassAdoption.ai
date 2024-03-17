@@ -175,7 +175,7 @@ Help make our inaugural party a success and we’ll see you there.</p>
                   <a href="https://www.massport.com/logan-airport" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Logan Airport</a>
               </div>
               <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
-                  <p className="text-gray-200 mb-4 lg:mb-6">For discounted rooms at the MGM Springfield click below</p>
+                  <p className="text-gray-200 mb-4 lg:mb-6">For discounted rooms at the MGM click below</p>
                   <a href="https://book.passkey.com/event/50771380/owner/49687830/home" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Hotel</a>
               </div>
           </div>
