@@ -6,7 +6,7 @@ const MailchimpForm: React.FC = () => {
   return (
     <div className="flex justify-center">
       <div className="w-96 rounded-lg bg-white p-6 shadow-md">
-        <h2 className="text-lg font-medium">Subscribe To Stay Up To Date With MassAdoption Events</h2>
+        <h2 className="text-lg font-medium">Subscribe To Stay Up To Date With MassAdoption</h2>
         
         <form
           action="https://massadoption.us9.list-manage.com/subscribe/post?u=8194ee6a68e4ce432b1d7a4cc&amp;id=cd03f24ba1&amp;f_id=00401ae1f0" 
