@@ -159,7 +159,7 @@ Help make our inaugural party a success and we’ll see you there.</p>
         <section id="merchandise" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Official Merchandise</h2>
           <p className="text-gray-300">Get your official Freedom Festival 2024 merchandise! Show your support and style with our exclusive collection.</p>
-          <a href="https://proofofink.com/product/massadoption/" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
+          <a href="https://proofofink.com/mass-adoption/" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-4 inline-block">Shop Now</a>
         </section>
 
         <section id="merchandise" className="my-8 px-4 md:px-8 lg:px-16">
