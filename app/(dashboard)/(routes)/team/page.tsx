@@ -86,6 +86,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
                 image: 'https://i.nostr.build/8eAG.jpg',
                 bio: 'Computational data market maxi.',
             },
+            {
+              name: 'Ken',
+              twitter: 'https://twitter.com/bitcoink3n',
+              role: 'Innovation Engineer ',
+              image: 'https://i.nostr.build/BRgyD.png',
+              bio: 'Value Creator, Next-Level Thinker, Cool Content Builder, Former Cybersecurity Researcher, MIT Rat. ',
+          },
         ]);
       const [selectedMember, setSelectedMember] = useState(null);
       const [isModalOpen, setIsModalOpen] = useState(false);
