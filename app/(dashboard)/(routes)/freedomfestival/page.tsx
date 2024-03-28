@@ -107,7 +107,7 @@ const Home: React.FC = () => {
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
           <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on living a bitcoin lifestyle with the transformative power of Bitcoin. We are gathering freedom-loving individuals to discuss, debate, and celebrate the role of Bitcoin in securing personal liberty and sovereignty.
 
-Buy your tickets today and rub elbows with your favorite bitcoiners, have vigorous debate about bitcoin/fiat, participate in bitcoin’s value for value circular economy, bitcoin education and most importantly, the freedom that bitcoin provides to be a free and sovereign individual.</p>
+Buy your tickets today and rub elbows with your favorite bitcoiners, have vigorous debate about bitcoin/fiat, participate in bitcoin’s value for value circular economy, bitcoin education and most importantly, the freedom that bitcoin provides to be a free and sovereign individual. Festival doors open at 9:30 AM EST. </p>
         </section>
         
         <section id="lineup" className="my-8">
@@ -153,7 +153,7 @@ Have a chance to mingle with your favorite Bitcoiners, have some food and drink 
  
 This is your chance in a relaxed and friendly atmosphere to interact with like-minded people and chances are you’ll be able to talk one on one with some of your most famous bitcoin personalities.
 
-Help make our inaugural party a success and we’ll see you there.</p>
+Help make our inaugural party a success and we’ll see you there. The pleb party starts at 6 PM EST.</p>
         </section>
 
         <section id="merchandise" className="my-8">
