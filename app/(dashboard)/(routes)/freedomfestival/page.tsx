@@ -105,6 +105,10 @@ const Home: React.FC = () => {
         
         <section id="about" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
+
+          <p className='text-gray-300'>Venue: Sports World 226 MAIN ST, East Windsor, Connecticut 06088 </p>
+          <br />
+          
           <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on living a bitcoin lifestyle with the transformative power of Bitcoin. We are gathering freedom-loving individuals to discuss, debate, and celebrate the role of Bitcoin in securing personal liberty and sovereignty.
 
 Buy your tickets today and rub elbows with your favorite bitcoiners, have vigorous debate about bitcoin/fiat, participate in bitcoin’s value for value circular economy, bitcoin education and most importantly, the freedom that bitcoin provides to be a free and sovereign individual. Festival doors open at 9:00 AM EST. </p>
