@@ -106,7 +106,11 @@ const Home: React.FC = () => {
         <section id="about" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
 
-          <p className='text-gray-300 font-bold'> Venue: Sports World 226 Main St. East Windsor, CT 06088</p>
+          <p className='text-gray-300 font-bold'> Venue: Sports World 
+          <br />
+          226 Main St. 
+          <br />
+          East Windsor, CT 06088</p>
           <br />
           
           <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on living a bitcoin lifestyle with the transformative power of Bitcoin. We are gathering freedom-loving individuals to discuss, debate, and celebrate the role of Bitcoin in securing personal liberty and sovereignty.
@@ -151,7 +155,9 @@ Buy your tickets today and rub elbows with your favorite bitcoiners, have vigoro
 
           <p className='text-gray-300 font-bold'>Venue: MGM  Casino Hotel 
                 (Rooftop)
+                <br />
                  One MGM Way
+                 <br />
                  Springfield, MA 01103</p>
           <br />
 
