@@ -113,9 +113,17 @@ const Home: React.FC = () => {
           East Windsor, CT 06088</p>
           <br />
           
-          <p className="text-gray-300">Freedom Festival 2024 is not just an event; it's a movement. With a focus on living a bitcoin lifestyle with the transformative power of Bitcoin. We are gathering freedom-loving individuals to discuss, debate, and celebrate the role of Bitcoin in securing personal liberty and sovereignty.
+          <p className="text-gray-300">Freedom Festival 2024 transcends a mere event; it embodies a movement powered by the revolutionary ethos of Bitcoin. As a nexus for those who champion personal liberty and financial sovereignty, the festival is an arena for spirited discussions, debates, and celebrations of Bitcoin's pivotal role in our lives.
 
-Buy your tickets today and rub elbows with your favorite bitcoiners, have vigorous debate about bitcoin/fiat, participate in bitcoin’s value for value circular economy, bitcoin education and most importantly, the freedom that bitcoin provides to be a free and sovereign individual. Festival doors open at 9:00 AM EST. </p>
+Join us to connect with like-minded bitcoin enthusiasts, engage in thought-provoking debates on Bitcoin versus fiat currencies, and immerse in the value-for-value economy that Bitcoin enables. Dive into comprehensive Bitcoin education sessions and embrace the unparalleled freedom to be a free and sovereign individual that Bitcoin facilitates.
+<br />
+<br />
+🎟 Ticket Information:
+Children aged 16 and under gain free entry, ensuring that the festival is accessible for families to explore the bitcoin lifestyle together. Secure your spot now to experience the camaraderie and insights of the Bitcoin community firsthand!
+<br />
+<br />
+Festival Schedule:
+Doors open at 9:00 AM EST, setting the stage for a day rich in knowledge and networking.</p>
         </section>
         
         <section id="lineup" className="my-8">
