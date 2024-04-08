@@ -177,7 +177,7 @@ Have a chance to mingle with your favorite Bitcoiners, have some food and drink 
  
 This is your chance in a relaxed and friendly atmosphere to interact with like-minded people and chances are you’ll be able to talk one on one with some of your most famous bitcoin personalities.
 
-Help make our inaugural party a success and we’ll see you there. The pleb party starts at 6 PM EST.</p>
+Help make our inaugural party a success and we’ll see you there. The pleb party starts at 5 PM EST.</p>
         </section>
 
         <section id="merchandise" className="my-8">
