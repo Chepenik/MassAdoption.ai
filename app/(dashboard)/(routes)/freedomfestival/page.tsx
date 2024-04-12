@@ -100,7 +100,9 @@ const Home: React.FC = () => {
       <main className="p-8 bg-gray-900">
         <h1 className="text-4xl font-bold mb-6 text-white">Embrace the Future of Finance and Freedom</h1>
         <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of Bitcoin.</p>
-        
+        <div className="relative w-full h-96 mb-8"> {/* Adjusted height from h-80 to h-96 */}
+          <Image src="https://i.nostr.build/7GYBV.jpg" layout="fill" objectFit="contain" alt="Freedom Festival Scene" />
+        </div>
         <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
         
         <section id="about" className="my-8">
