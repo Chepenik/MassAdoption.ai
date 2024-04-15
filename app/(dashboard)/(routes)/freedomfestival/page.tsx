@@ -42,6 +42,7 @@ const Home: React.FC = () => {
 
   const speakers = [
     { name: 'BJ Dichter', imgSrc: 'https://pbs.twimg.com/profile_images/1647631287274840069/vZ8NvccM_400x400.jpg', twitterUrl: 'https://twitter.com/BJDichter' },
+      { name: 'Dennis Porter', imgSrc: 'https://i.nostr.build/4oa5r.png', twitterUrl: 'https://twitter.com/Dennis_Porter_' },
     { name: 'Jason Maier', imgSrc: 'https://pbs.twimg.com/profile_images/1603115142505500677/SB2ferlx_400x400.jpg', twitterUrl: 'https://twitter.com/cjasonmaier' },
     { name: 'Texas Slim', imgSrc: 'https://pbs.twimg.com/profile_images/1589784780970795011/02jf0fqp_400x400.jpg', twitterUrl: 'https://twitter.com/modernTman' },
     { name: 'David Foley', imgSrc: 'https://i.nostr.build/ZLY8.jpg', twitterUrl: 'https://twitter.com/DAAF17' },
@@ -100,8 +101,13 @@ const Home: React.FC = () => {
       <main className="p-8 bg-gray-900">
         <h1 className="text-4xl font-bold mb-6 text-white">Embrace the Future of Finance and Freedom</h1>
         <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of Bitcoin.</p>
-        <div className="relative w-full h-96 mb-8"> {/* Adjusted height from h-80 to h-96 */}
-          <Image src="https://i.nostr.build/7GYBV.jpg" layout="fill" objectFit="contain" alt="Freedom Festival Scene" />
+        <div className="relative w-full h-[750px] mb-8"> {/* Changed h-96 to h-[500px] to increase height */}
+          <Image 
+            src="https://i.nostr.build/7GYBV.jpg" 
+            layout="fill" 
+            objectFit="contain" 
+            alt="Freedom Festival Scene" 
+          />
         </div>
         <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
         
@@ -201,8 +207,7 @@ Help make our inaugural party a success and we’ll see you there. The pleb part
                   <a href="https://www.massport.com/logan-airport" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Logan Airport</a>
               </div>
               <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
-                  <p className="text-gray-200 mb-4 lg:mb-6">For discounted rooms at the MGM click below</p>
-                  <a href="https://book.passkey.com/event/50771380/owner/49687830/home" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Hotel</a>
+                  <p className="text-gray-200 mb-4 lg:mb-6">MassAdoption hotel rooms are sold out”. Please book directly with the MGM HOTEL or thru a 3rd party site.</p>
               </div>
           </div>
         </section>
@@ -246,7 +251,7 @@ Help make our inaugural party a success and we’ll see you there. The pleb part
         <p>Stay updated with the latest news. Follow us on social media and join the conversation with #FreedomFest2024 #BitcoinFreedom</p>
       </footer>
 
-      <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="fixed bottom-4 right-4 transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+      <a href="https://massadoptionbtc.ticketspice.com/massadoption-2024" className="fixed bottom-4 right-4 transition duration-300 ease-in-out transform hover:scale-105 bg-orange-500 hover:bg-red-700 text-white text-2xl font-bold py-2 px-4 rounded-full">
         Buy Tickets
       </a>
     </>
