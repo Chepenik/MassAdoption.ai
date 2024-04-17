@@ -49,7 +49,6 @@ const Home: React.FC = () => {
     { name: 'Luke Broyles', imgSrc: 'https://i.nostr.build/8De4.jpg', twitterUrl: 'https://twitter.com/luke_broyles' },
     { name: 'Michelle Weekley', imgSrc: 'https://i.nostr.build/jVz5.jpg', twitterUrl: 'https://twitter.com/michelleweekley' },
     { name: 'Surfer Jim', imgSrc: 'https://i.nostr.build/JyYr.jpg', twitterUrl: 'https://twitter.com/surferjimw' },
-    { name: 'Hailey Lennon', imgSrc: 'https://i.nostr.build/qPE8.jpg', twitterUrl: 'https://twitter.com/HaileyLennonBTC' },
     { name: 'Michael Schmid', imgSrc: 'https://i.nostr.build/LZA9.jpg', twitterUrl: 'https://twitter.com/Schnitzel' },
     { name: 'James “Combo” Marino', imgSrc: 'https://i.nostr.build/w7xx.png', twitterUrl: 'https://twitter.com/BTC_Mass' },
     { name: 'Bitcoin Kendal', imgSrc: 'https://i.nostr.build/3yqZ.png', twitterUrl: 'https://twitter.com/bitcoinkendal' },
@@ -109,7 +108,7 @@ const Home: React.FC = () => {
             alt="Freedom Festival Scene" 
           />
         </div>
-        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
+    
         
         <section id="about" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
@@ -207,7 +206,7 @@ Help make our inaugural party a success and we’ll see you there. The pleb part
                   <a href="https://www.massport.com/logan-airport" className="transition duration-300 ease-in-out transform hover:scale-105 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-center shadow-md hover:shadow-lg w-full text-sm">Logan Airport</a>
               </div>
               <div className="sm:col-span-2 lg:col-span-1 flex flex-col justify-center">
-                  <p className="text-gray-200 mb-4 lg:mb-6">MassAdoption hotel rooms are sold out”. Please book directly with the MGM HOTEL or thru a 3rd party site.</p>
+                  <p className="text-gray-200 mb-4 lg:mb-6">MassAdoption hotel rooms are sold out. Please book directly with the MGM HOTEL or thru a 3rd party site.</p>
               </div>
           </div>
         </section>
@@ -231,6 +230,8 @@ Help make our inaugural party a success and we’ll see you there. The pleb part
             </ul>
           </div>
         </section>
+
+        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
 
         <section id="tickets" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Secure Your Spot</h2>
