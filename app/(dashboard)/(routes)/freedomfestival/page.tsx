@@ -102,7 +102,7 @@ const Home: React.FC = () => {
         <p className="mb-4 text-gray-300">Join us in celebrating the revolutionary impact of Bitcoin and the enduring legacy of the freedoms enshrined in the U.S. Constitution. Connect with leaders, innovators, and enthusiasts in the world of Bitcoin.</p>
         <div className="relative w-full h-[750px] mb-8"> {/* Changed h-96 to h-[500px] to increase height */}
           <Image 
-            src="https://i.nostr.build/YgxqP.jpg" 
+            src="https://i.nostr.build/KGvdk.png" 
             layout="fill" 
             objectFit="contain" 
             alt="Freedom Festival Scene" 
