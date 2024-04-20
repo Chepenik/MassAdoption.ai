@@ -132,7 +132,15 @@ Children aged 16 and under gain free entry, ensuring that the festival is access
 Festival Schedule:
 Doors open at 9:00 AM EST, setting the stage for a day rich in knowledge and networking.</p>
 <br />
-<a className='text-blue-500 hover:text-orange-500 text-bold' target="_blank" href="https://docs.google.com/spreadsheets/d/1_jycxOWZmG5YfkIrRi3Pu8A_-YPIy540YFot6s6g52o/edit?usp=sharing">Click here to see the festival itinerary</a>
+<a className='text-blue-500 hover:text-orange-500 text-bold' target="_blank" href="https://docs.google.com/spreadsheets/d/1_jycxOWZmG5YfkIrRi3Pu8A_-YPIy540YFot6s6g52o/edit?usp=sharing">Click here to download the festival itinerary</a>
+<div className="relative w-full h-[750px] my-10"> {/* Changed h-96 to h-[500px] to increase height */}
+          <Image 
+            src="https://i.nostr.build/M5jKv.jpg" 
+            layout="fill" 
+            objectFit="contain" 
+            alt="Freedom Festival Scene" 
+          />
+        </div>
         </section>
         
         <section id="lineup" className="my-8">
