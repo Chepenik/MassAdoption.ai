@@ -111,37 +111,43 @@ const Home: React.FC = () => {
     
         
         <section id="about" className="my-8">
-          <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
+  <div className="flex flex-col md:flex-row items-center justify-between">
+    <div className="mb-4 md:mb-0">
+      <h2 className="text-3xl font-bold mb-4 text-white">About the Festival</h2>
+      <p className='text-gray-300 font-bold'>
+        Venue: Sports World <br />
+        226 Main St. <br />
+        East Windsor, CT 06088
+      </p>
+    </div>
+  </div>
+  <p className="text-gray-300 mt-4 md:mt-8">
+    Freedom Festival 2024 transcends a mere event; it embodies a movement powered by the revolutionary ethos of Bitcoin. As a nexus for those who champion personal liberty and financial sovereignty, the festival is an arena for spirited discussions, debates, and celebrations of Bitcoin's pivotal role in our lives.
+    <br />
+    <br />
+    Join us to connect with like-minded bitcoin enthusiasts, engage in thought-provoking debates on Bitcoin versus fiat currencies, and immerse in the value-for-value economy that Bitcoin enables. Dive into comprehensive Bitcoin education sessions and embrace the unparalleled freedom to be a free and sovereign individual that Bitcoin facilitates.
+    <br />
+    <br />
+    🎟 Ticket Information: Children aged 16 and under gain free entry, ensuring that the festival is accessible for families to explore the bitcoin lifestyle together. Secure your spot now to experience the camaraderie and insights of the Bitcoin community firsthand!
+    <br />
+    <br />
+    Festival Schedule: Doors open at 9:00 AM EST, setting the stage for a day rich in knowledge and networking.
+  </p>
+  <br />
+  <p className='text-white font-bold text-2xl'>Festival Itinerary:</p>
 
-          <p className='text-gray-300 font-bold'> Venue: Sports World 
-          <br />
-          226 Main St. 
-          <br />
-          East Windsor, CT 06088</p>
-          <br />
-          
-          <p className="text-gray-300">Freedom Festival 2024 transcends a mere event; it embodies a movement powered by the revolutionary ethos of Bitcoin. As a nexus for those who champion personal liberty and financial sovereignty, the festival is an arena for spirited discussions, debates, and celebrations of Bitcoin's pivotal role in our lives.
-
-Join us to connect with like-minded bitcoin enthusiasts, engage in thought-provoking debates on Bitcoin versus fiat currencies, and immerse in the value-for-value economy that Bitcoin enables. Dive into comprehensive Bitcoin education sessions and embrace the unparalleled freedom to be a free and sovereign individual that Bitcoin facilitates.
-<br />
-<br />
-🎟 Ticket Information:
-Children aged 16 and under gain free entry, ensuring that the festival is accessible for families to explore the bitcoin lifestyle together. Secure your spot now to experience the camaraderie and insights of the Bitcoin community firsthand!
-<br />
-<br />
-Festival Schedule:
-Doors open at 9:00 AM EST, setting the stage for a day rich in knowledge and networking.</p>
-<br />
-<a className='text-blue-500 hover:text-orange-500 text-bold' target="_blank" href="https://docs.google.com/spreadsheets/d/1_jycxOWZmG5YfkIrRi3Pu8A_-YPIy540YFot6s6g52o/edit?usp=sharing">Click here to download the festival itinerary</a>
-<div className="relative w-full h-[750px] my-10"> {/* Changed h-96 to h-[500px] to increase height */}
-          <Image 
-            src="https://i.nostr.build/M5jKv.jpg" 
-            layout="fill" 
-            objectFit="contain" 
-            alt="Freedom Festival Scene" 
-          />
-        </div>
-        </section>
+  <div className="relative w-full h-[300px] md:h-[500px]">
+      <Image
+        src="https://i.nostr.build/M5jKv.jpg"
+        layout="fill"
+        objectFit="contain"
+        alt="Freedom Festival Scene"
+      />
+    </div>
+  <a className='text-blue-500 hover:text-orange-500 font-bold mt-2 text-xl' target="_blank" rel="noopener noreferrer" href="https://docs.google.com/spreadsheets/d/1_jycxOWZmG5YfkIrRi3Pu8A_-YPIy540YFot6s6g52o/edit?usp=sharing">
+    Click here to download the festival itinerary
+  </a>
+</section>
         
         <section id="lineup" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Our Stellar Lineup</h2>
