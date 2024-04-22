@@ -138,7 +138,7 @@ const Home: React.FC = () => {
 
   <div className="relative w-full h-[300px] md:h-[500px]">
       <Image
-        src="https://i.nostr.build/M5jKv.jpg"
+        src="https://i.nostr.build/Lery2.png"
         layout="fill"
         objectFit="contain"
         alt="Freedom Festival Scene"
