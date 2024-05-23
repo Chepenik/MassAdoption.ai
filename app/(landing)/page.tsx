@@ -39,6 +39,8 @@ const LandingPage = () => {
         <LandingHero />
         <div className="hidden sm:block"> 
         </div>
+        <br />
+        <br />
         <MailchimpForm />
         <br />
         <LandingContent />
