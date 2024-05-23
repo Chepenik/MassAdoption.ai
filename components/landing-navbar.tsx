@@ -47,9 +47,9 @@ export const LandingNavbar = () => {
               <FaBars className="text-xl" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              {/* <Link href="/freedomfestival">
+              <Link href="/freedomfestival">
                 <DropdownMenuLabel className="text-lg font-semibold">Freedom Fest '24</DropdownMenuLabel>
-              </Link> */}
+              </Link>
               <DropdownMenuSeparator />
               <Link href="/MrNakamoto">
                 <DropdownMenuItem className="py-3">Mr. Nakamoto</DropdownMenuItem>
@@ -82,10 +82,10 @@ export const LandingNavbar = () => {
           </DropdownMenu>
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
-            {/* <Link href="/freedomfestival">
+            <Link href="/freedomfestival">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
             </Link>
-            <p>|</p> */}
+            <p>|</p>
             <Link href="/MrNakamoto">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
             </Link>
