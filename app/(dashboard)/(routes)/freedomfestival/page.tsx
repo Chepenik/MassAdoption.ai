@@ -67,7 +67,7 @@ const Home: React.FC = () => {
       <main className="p-8 bg-gray-900">
         <h1 className="text-white">Stay Tuned For The 2025 Freedom Festival</h1>
         <h3 className="text-white">In the meantime check out our 2024 recap</h3>
-        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/Fjz83VsnxWo?si=PW8Zc6Z-7woxehZf" title="YouTube video player" allowFullScreen></iframe>
+        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/Qq8Y-8RjaZM?si=eR0ENYKUmKmRg0Lm" title="YouTube video player"  allowFullScreen></iframe>
       </main>
     </>
   );

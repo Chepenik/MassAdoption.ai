@@ -247,7 +247,7 @@ Help make our inaugural party a success and we’ll see you there. The pleb part
           </div>
         </section>
 
-        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/0XnB_ZqL6fo?si=inN3cz3QhNmQMPve" title="YouTube video player" allowFullScreen></iframe>
+        <iframe className="w-full aspect-video" src="https://www.youtube.com/embed/Qq8Y-8RjaZM?si=MwzasM-AFzHOXGPg" title="YouTube video player"  allowFullScreen></iframe>
 
         <section id="tickets" className="my-8">
           <h2 className="text-3xl font-bold mb-4 text-white">Secure Your Spot</h2>
