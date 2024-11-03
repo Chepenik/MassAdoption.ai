@@ -6,7 +6,7 @@ import { LandingHero } from '@/components/landing-hero';
 import { LandingNavbar } from '@/components/landing-navbar';
 import { Footer } from '@/components/footer';
 import { backgroundImages } from '@/components/backgroundImages';
-// import FestivalBanner from '@/components/FestivalBanner'
+import FestivalBanner from '@/components/FestivalBanner'
 import MailchimpForm from '@/components/MailChimp';
 
 const LandingPage = () => {
@@ -35,7 +35,7 @@ const LandingPage = () => {
         }}
       >
         <LandingNavbar />
-        {/* <FestivalBanner />  */}
+        <FestivalBanner /> 
         <LandingHero />
         <div className="hidden sm:block"> 
         </div>

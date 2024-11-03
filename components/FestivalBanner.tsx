@@ -1,28 +1,23 @@
-// const FestivalBanner = () => {
-//   return (
-//     <div className="festival-banner bg-orange-600 text-white text-center py-4">
-//       <h2 className="text-2xl font-bold">Join us for the Mass Adoption 2024 Freedom Festival!</h2>
-//       <h3 className="text-xl font-bold mt-2 text-purple-300">Less Than 1 Week Left. Buy Tickets Now</h3>
-//       <div className="inline-flex justify-center mt-2 gap-4">
-//         <a
-//           href="https://massadoptionbtc.ticketspice.com/massadoption-2024"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="bg-blue-800 text-white py-2 px-4 rounded hover:bg-purple-500 transition duration-300"
-//         >
-//           Get Tickets
-//         </a>
-//         <a
-//           href="/freedomfestival"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="bg-green-700 text-white py-2 px-4 rounded hover:bg-green-500 transition duration-300"
-//         >
-//           Learn More
-//         </a>
-//       </div>
-//     </div>
-//   );
-// };
+import Link from 'next/link';
 
-// export default FestivalBanner;
+const FestivalBanner = () => {
+  return (
+    <div className="festival-banner bg-orange-500 text-white text-center py-6">
+      <h2 className="text-3xl font-bold">Join us at Camp Nakamoto for Mass Adoption&apos;s 2025 Island Bitcoin Retreat</h2>
+      <div className="inline-flex justify-center mt-4 gap-6">
+        <Link href="https://massadoptionbtc.ticketspice.com/camp-nakamoto" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer" className="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 ease-in-out">
+            Get Tickets
+          </a>
+        </Link>
+        <Link href="https://www.campnakamoto.com/" legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white py-3 px-6 rounded-lg hover:bg-green-400 transition duration-300 ease-in-out">
+            Learn More
+          </a>
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default FestivalBanner;

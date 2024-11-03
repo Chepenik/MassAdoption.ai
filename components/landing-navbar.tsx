@@ -82,10 +82,6 @@ export const LandingNavbar = () => {
           </DropdownMenu>
         ) : (
           <div className="hidden lg:flex items-center gap-x-2">
-            <Link href="/freedomfestival">
-              <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">  Freedom Fest '24</span>
-            </Link>
-            <p>|</p>
             <Link href="/MrNakamoto">
               <span className="text-lg font-semibold hover:text-orange-400 hover:underline cursor-pointer">Mr. Nakamoto</span>
             </Link>
