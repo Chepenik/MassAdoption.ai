@@ -3,7 +3,7 @@ import Link from 'next/link';
 const FestivalBanner = () => {
   return (
     <div className="festival-banner bg-orange-500 text-white text-center py-6">
-      <h2 className="text-3xl font-bold">Join us at Camp Nakamoto for Mass Adoption&apos;s 2025 Island Bitcoin Retreat</h2>
+      <h2 className="text-3xl font-bold">Join us at the first ever Island Bitcoin Retreat CAMP NAKAMOTO 2025</h2>
       <div className="inline-flex justify-center mt-4 gap-6">
         <Link href="https://massadoptionbtc.ticketspice.com/camp-nakamoto" legacyBehavior>
           <a target="_blank" rel="noopener noreferrer" className="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 ease-in-out">
