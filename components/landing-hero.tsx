@@ -18,7 +18,7 @@ export const LandingHero = () => {
                 "AI",
                 "Merchant Adoption",
                 "Education",
-                "Freedom Festivals"
+                "Events"
               ],
               autoStart: true,
               loop: true,
