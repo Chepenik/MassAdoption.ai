@@ -5,6 +5,11 @@ import Link from "next/link";
 
 const partners = [
   {
+    name: "Theya", 
+    url: "https://www.theya.us/",
+    image: "https://i.nostr.build/yXoRgRbn84QFFuVa.png"
+  },
+  {
     name: "Unchained", 
     url: "https://unchained.com/",
     image: "https://i.nostr.build/xvxe.png"
@@ -13,11 +18,6 @@ const partners = [
     name: "River", 
     url: "https://river.com/",
     image: "https://i.nostr.build/vgA7.webp"
-  },
-  {
-    name: "Theya", 
-    url: "https://www.theya.us/",
-    image: "https://i.nostr.build/yXoRgRbn84QFFuVa.png"
   },
   {
     name: "The Bitcoin Opportunity Fund/", 
