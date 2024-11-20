@@ -15,6 +15,11 @@ const partners = [
     image: "https://i.nostr.build/vgA7.webp"
   },
   {
+    name: "Theya", 
+    url: "https://www.theya.us/",
+    image: "https://i.nostr.build/yXoRgRbn84QFFuVa.png"
+  },
+  {
     name: "The Bitcoin Opportunity Fund/", 
     url: "https://www.bitcoinopportunity.fund/",
     image: "https://i.nostr.build/jy6M.png"
