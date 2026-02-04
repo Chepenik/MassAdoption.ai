@@ -15,7 +15,7 @@ npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
 
-**Node version requirement: 18.x.x**
+**Node version requirement: 20.x or higher (Vercel uses 24.x)**
 
 ## Architecture
 
