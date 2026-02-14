@@ -7,7 +7,6 @@ import { LandingNavbar } from '@/components/landing-navbar';
 import { Footer } from '@/components/footer';
 import { backgroundImages } from '@/components/backgroundImages';
 import FestivalBanner from '@/components/FestivalBanner'
-import MailchimpForm from '@/components/MailChimp';
 
 const LandingPage = () => {
   const [backgroundImage, setBackgroundImage] = useState(backgroundImages[0]);
@@ -37,12 +36,8 @@ const LandingPage = () => {
         <LandingNavbar />
         <FestivalBanner /> 
         <LandingHero />
-        <div className="hidden sm:block"> 
+        <div className="hidden sm:block">
         </div>
-        <br />
-        <br />
-        <MailchimpForm />
-        <br />
         <LandingContent />
         <div className="iframe-wrapper">
           <h1 className='text-center text-white text-4xl'>Find Local Businesses That Accept BTC</h1>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 const FestivalBanner = () => {
   return (
     <div className="festival-banner bg-orange-500 text-white text-center py-6">
-      <h2 className="text-3xl font-bold">Join us at the first ever island Bitcoin retreat</h2>
+      <h2 className="text-3xl font-bold">Join us at the 2nd annual island Bitcoin retreat</h2>
       <h2 className="text-3xl font-bold">CAMP NAKAMOTO 2026</h2>
       <div className="inline-flex justify-center mt-4 gap-6">
         <Link href="https://pay.zaprite.com/pl_nbISw4YWoJ" legacyBehavior>
